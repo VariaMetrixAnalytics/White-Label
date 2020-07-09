@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="64" viewBox="0 0 20 64">
+  <g id="con-expand" transform="translate(-715 -351)">
+    <g id="Group_6" data-name="Group 6">
+      <path id="icon-expand" d="M27,12h7v7H32V15.4l-5.3,5.3-1.4-1.4L30.6,14H27Zm-5.7,7.3L16,24.6V21H14v7h7V26H17.4l5.3-5.3ZM14,17h2V14h7V12H14Zm18,9H25v2h9V23H32Z" transform="translate(701 339)"/>
+    </g>
+    <g id="Group_5" data-name="Group 5" transform="translate(0 48)">
+      <path id="icon-expand-2" data-name="icon-expand" d="M27,12h7v7H32V15.4l-5.3,5.3-1.4-1.4L30.6,14H27Zm-5.7,7.3L16,24.6V21H14v7h7V26H17.4l5.3-5.3ZM14,17h2V14h7V12H14Zm18,9H25v2h9V23H32Z" transform="translate(701 339)" fill="#4fc3f7"/>
+    </g>
+  </g>
+</svg>
