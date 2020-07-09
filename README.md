@@ -11,8 +11,8 @@
 
 # Getting Started 
 
-<h5>package.varia.json Structure</h5>
-```json
+<h2>package.varia.json Structure</h2>
+```
 {
     "name": "Sample Package name",
     "version": "1.0.1",
@@ -44,15 +44,15 @@
     <li>license - license type of the package</li>
     <li>assets - containing path of assets to add in the package. See more in documentation</li>
     <li>styles - An array of styles to add in varia metrix package. Package only supports plain CSS file. See more in documentation.</li>
-    <li>components - containing a list of customizable component in VariaMetrix. See more in documentation.</li>
+    <li>components - containing a list of customizable components in VariaMetrix. See more in documentation.</li>
 </ul>
 
-<h5>Installing package in VariaMetrix</h5>
+<h2>Installing package in VariaMetrix</h2>
 <ol>
     <li>Clone the package folder</li>
     <li>Compress the files inside package folder, ensure `package.varia.json` is there</li>
     <li>Go to <a href="http://localhost:4200/manage/white-label/package">Package page</a> and upload your compressed file</li>
-<ol>
+</ol>
 
 # Testing
 <p>To test the styles changes you've made in realtime, In variametrix site, Inspect site elements, In inherited from html section, you'll see all CSS variable we'
