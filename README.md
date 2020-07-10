@@ -44,8 +44,8 @@ VariaMetrix is a professional dashboard development, expert-driven reporting ins
     <li>version - package version.</li>
     <li>author - author of the package</li>
     <li>license - license type of the package</li>
-    <li>assets - containing path of assets to add in the package. See Example</li>
-    <li>styles - An array of styles to add in varia metrix package. Package only supports plain CSS file. See Example</li>
+    <li>assets - containing path of assets to add in the package. See <a href="./example/EXAMPLE.md">Example</a> </li>
+    <li>styles - An array of styles to add in varia metrix package. Package only supports plain CSS file. See <a href="./example/EXAMPLE.md">Example</a> </li>
     <li>components - containing a list of customizable components in VariaMetrix.</li>
 </ul>
 
