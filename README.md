@@ -4,6 +4,7 @@ VariaMetrix is a professional dashboard development, expert-driven reporting ins
 # Table of contents
 - [Getting Started](#getting-started)
 	- [package.varia.json Structure](#package.varia.json-structure)
+  - [Styles](#styles)
   - [Assets](#assets)
   - [Installing package in VariaMetrix](#installing-package-in-variametrix)
 - [Example](./example/EXAMPLE.md)
@@ -59,6 +60,18 @@ Ex.
 ```
 
 Assets is supported by following format : .apng, .bmp, .gif, .ico, .cur, .jpg, .jpeg, .jfif, .pjp, .png, .svg, .tif, .tiff
+
+## Styles
+
+<a href="./package/css-verride/varia-default" ta>varia-default.css</a> this file contains all variables we use to theme VariaMetrix. Any variable not defined in package styles will revert to the VariaMetrix default.
+
+Here's an example that changes the background color of navigation bar.
+
+```CSS
+  --navbar-background: #5f015f;
+```
+
+![GitHub Logo](./Images/NavigationBar.PNG)
 
 ## Components
 
