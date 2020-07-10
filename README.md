@@ -91,4 +91,4 @@ In code above, the first item in array gonna be the default value of chart block
 <p>To test the styles changes you've made in realtime, In variametrix site, Inspect site elements, In inherited from html section, you'll see all CSS variable we'
 ve used in variametrix. You can alter that accordingly. </p>
 
-![GitHub Logo](./docs/Testing.PNG)
+![GitHub Logo](./Images/Testing.PNG)
