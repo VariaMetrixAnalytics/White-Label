@@ -221,7 +221,7 @@
     /*
         Set delete icon properties
     */
-    --delete-icon-background-image: url('./../assets/images/icon-delete.svg');
+    --delete-icon-background-image: url('./{varia-url}asset-override/icon-delete.svg');
     --delete-icon-background-position: 0px 1px;
     --delete-icon-vertical-align: middle;
     --delete-icon-background-size: 16px 12px;
@@ -232,7 +232,7 @@
     /*
         Set edit icon properties
     */
-    --edit-icon-background-image: url('./../assets/images/icon-edit.svg');
+    --edit-icon-background-image: url('./{varia-url}asset-override/icon-edit.svg');
     --edit-icon-background-position: 0px 0px;
     --edit-icon-vertical-align: middle;
     --edit-icon-background-size: 16px 12px;
@@ -250,7 +250,7 @@
     /* 
         Normal state arrow icons 
     */
-    --select-arrow-icon-background-image: url('../assets/images/varia-select-sprite.svg');
+    --select-arrow-icon-background-image: url('{varia-url}asset-override/varia-select-sprite.svg');
     --select-arrow-icon-background-position: -29px 4px;
     --select-arrow-icon-background-size: auto;
         
@@ -264,7 +264,7 @@
     /* 
         Hover state arrow icons 
     */
-    --select-arrow-icon-hover-background-image: url('../assets/images/varia-select-sprite.svg');
+    --select-arrow-icon-hover-background-image: url('{varia-url}asset-override/varia-select-sprite.svg');
     --select-arrow-icon-hover-bbackground-size: auto;
     --select-arrow-icon-hover-background-position: -29px 28px;
     
@@ -278,7 +278,7 @@
     /* 
         Disabled state arrow icons 
     */
-    --select-arrow-icon-disabled-background-image: url('../assets/images/varia-select-sprite.svg');
+    --select-arrow-icon-disabled-background-image: url('{varia-url}asset-override/varia-select-sprite.svg');
     --select-arrow-icon-disabled-background-size: auto;
     --select-arrow-icon-disabled-background-position: -29px 4px;
 
@@ -319,19 +319,19 @@
     /*
         Normal state 
     */
-    --select-popup-scroll-up-icon-background-image: url('../assets/images/varia-select-scroll-sprite.svg');
+    --select-popup-scroll-up-icon-background-image: url('{varia-url}asset-override/varia-select-scroll-sprite.svg');
     --select-popup-scroll-up-icon-background-position: -6px 0px;
 
-    --select-popup-scroll-down-icon-background-image: url('../assets/images/varia-select-scroll-sprite.svg');
+    --select-popup-scroll-down-icon-background-image: url('{varia-url}asset-override/varia-select-scroll-sprite.svg');
     --select-popup-scroll-down-icon-background-position: -6px -22px;
     
     /*
         Hover state 
     */
-    --select-popup-scroll-up-icon-hover-background-image: url('../assets/images/varia-select-scroll-sprite.svg');
+    --select-popup-scroll-up-icon-hover-background-image: url('{varia-url}asset-override/varia-select-scroll-sprite.svg');
     --select-popup-scroll-up-icon-hover-background-position: -27px 0px;
 
-    --select-popup-scroll-down-icon-hover-background-image: url('../assets/images/varia-select-scroll-sprite.svg');
+    --select-popup-scroll-down-icon-hover-background-image: url('{varia-url}asset-override/varia-select-scroll-sprite.svg');
     --select-popup-scroll-down-icon-hover-background-position: -27px -22px;
 
 
@@ -374,11 +374,11 @@
     /*
         Set navigation bar colors
     */
-    --navbar-background-color: #231f20;
+    --navbar-background: #231f20;
     /*
         Set navbar-brand background size width and height
     */
-    --navbar-primary-brand-background: url('../assets/images/varia-logo-title.svg') center no-repeat;
+    --navbar-primary-brand-background: url('{varia-url}asset-override/varia-logo-title.svg') center no-repeat;
     /*
         Set navbar-brand background size width and height
     */
@@ -397,7 +397,7 @@
     /*
         Normal state
     */
-    --navbar-burger-menu-background: url('../assets/images/dashboard-menu.svg') no-repeat;
+    --navbar-burger-menu-background: url('{varia-url}asset-override/dashboard-menu.svg') no-repeat;
     --navbar-burger-menu-background-position: left 0;
     
     /*
@@ -485,7 +485,7 @@
     /*
         Set Export PPT image
     */
-    --navbar-menu-item-export-ppt-icon-background-image: url('../assets/images/export-ppt.svg');
+    --navbar-menu-item-export-ppt-icon-background-image: url('{varia-url}asset-override/export-ppt.svg');
     --navbar-menu-item-export-ppt-icon-background-size: 48px;
     --navbar-menu-item-export-ppt-icon-background-position: left 0;
 
@@ -515,68 +515,68 @@
     /*
         Set add new user background icon and background position
     */
-    --sub-navbar-add-new-user-icon-background-image: url('../assets/images/management-menu-button.svg');
+    --sub-navbar-add-new-user-icon-background-image: url('{varia-url}asset-override/management-menu-button.svg');
     --sub-navbar-add-new-user-icon-background-position: -336px 0px;
     
     /*
         Set add new role background icon and background position
     */
-    --sub-navbar-add-new-role-icon-background-image: url('../assets/images/management-menu-button.svg');
+    --sub-navbar-add-new-role-icon-background-image: url('{varia-url}asset-override/management-menu-button.svg');
     --sub-navbar-add-new-role-icon-background-position: -336px 0px;
     /*
         Set add new policy background icon and background position
     */
-    --sub-navbar-add-new-policy-icon-background-image: url('../assets/images/management-menu-button.svg');
+    --sub-navbar-add-new-policy-icon-background-image: url('{varia-url}asset-override/management-menu-button.svg');
     --sub-navbar-add-new-policy-icon-background-position: -336px 0px;
     /*
         Set add new tag background icon and background position
     */
-    --sub-navbar-add-new-tag-icon-background-image: url('../assets/images/management-menu-button.svg');
+    --sub-navbar-add-new-tag-icon-background-image: url('{varia-url}asset-override/management-menu-button.svg');
     --sub-navbar-add-new-tag-icon-background-position: -336px 0px;
     /*
         Set change password background icon and background position
     */
-    --sub-navbar-change-password-icon-background-image: url('../assets/images/management-menu-button.svg');
+    --sub-navbar-change-password-icon-background-image: url('{varia-url}asset-override/management-menu-button.svg');
     --sub-navbar-change-password-icon-background-position: -624px 0px;
     /*
         Set change email background icon and background position
     */
-    --sub-navbar-change-email-icon-background-image: url('../assets/images/management-menu-button.svg');
+    --sub-navbar-change-email-icon-background-image: url('{varia-url}asset-override/management-menu-button.svg');
     --sub-navbar-change-email-icon-background-position: -624px 0px;
     /*
         Set create dashboard background icon and background position
     */
-    --sub-navbar-create-dashboard-icon-background-image: url('../assets/images/management-menu-button.svg');
+    --sub-navbar-create-dashboard-icon-background-image: url('{varia-url}asset-override/management-menu-button.svg');
     --sub-navbar-create-dashboard-icon-background-position: -336px 0px;
     /*
         Set create new goal background icon and background position
     */
-    --sub-navbar-create-new-goal-icon-background-image: url('../assets/images/management-menu-button.svg');
+    --sub-navbar-create-new-goal-icon-background-image: url('{varia-url}asset-override/management-menu-button.svg');
     --sub-navbar-create-new-goal-icon-background-position: -336px 0px;
     /*
         Set delete goal background icon and background position
     */
-    --sub-navbar-delete-goal-icon-background-image: url('../assets/images/management-menu-button.svg');
+    --sub-navbar-delete-goal-icon-background-image: url('{varia-url}asset-override/management-menu-button.svg');
     --sub-navbar-delete-goal-icon-background-position: -384px 0px;
     /*
         Set add connector background icon and position
     */
-    --sub-navbar-add-connector-icon-background-image: url('../assets/images/management-menu-button.svg');
+    --sub-navbar-add-connector-icon-background-image: url('{varia-url}asset-override/management-menu-button.svg');
     --sub-navbar-add-connector-icon-background-position: -336px 0px;
     /*
         Set add  youtube channel background icon and position
     */
-    --sub-navbar-add-youtube-channel-icon-background-image: url('../assets/images/management-menu-button.svg');
+    --sub-navbar-add-youtube-channel-icon-background-image: url('{varia-url}asset-override/management-menu-button.svg');
     --sub-navbar-add-youtube-channel-icon-background-position: -336px 0px;
     /*
         Set add site url background icon and position
     */
-    --sub-navbar-add-site-url-icon-background-image: url('../assets/images/management-menu-button.svg');
+    --sub-navbar-add-site-url-icon-background-image: url('{varia-url}asset-override/management-menu-button.svg');
     --sub-navbar-add-site-url-icon-background-position: -336px 0px;
     /*
         Set add new payment method background icon and position
     */
-    --sub-navbar-add-new-payment-method-icon-background-image: url('../assets/images/management-menu-button.svg');
+    --sub-navbar-add-new-payment-method-icon-background-image: url('{varia-url}asset-override/management-menu-button.svg');
     --sub-navbar-add-new-payment-method-icon-background-position: -336px 0px;
 
 
@@ -669,23 +669,23 @@
     /*
         Normal state
     */
-    --sidebar-primary-tab-dashboard-icon-background-image: url('../assets/images/panel-tab--dashboards.svg');
+    --sidebar-primary-tab-dashboard-icon-background-image: url('{varia-url}asset-override/panel-tab--dashboards.svg');
     --sidebar-primary-tab-dashboard-icon-background-position: 0 -128px;
     /*
         Hover state
     */
-    --sidebar-primary-tab-dashboard-icon-hover-background-image: url('../assets/images/panel-tab--dashboards.svg');
+    --sidebar-primary-tab-dashboard-icon-hover-background-image: url('{varia-url}asset-override/panel-tab--dashboards.svg');
     --sidebar-primary-tab-dashboard-icon-hover-background-position: 0 -64px;
     /*
         Active state
     */
-    --sidebar-primary-tab-active-dashboard-icon-background-image: url('../assets/images/panel-tab--dashboards.svg');
+    --sidebar-primary-tab-active-dashboard-icon-background-image: url('{varia-url}asset-override/panel-tab--dashboards.svg');
     --sidebar-primary-tab-active-dashboard-icon-background-position: 0 -32px;
     
     /*
         Active & Hover state
     */
-    --sidebar-primary-tab-active-dashboard-icon-hover-background-image: url('../assets/images/panel-tab--dashboards.svg');
+    --sidebar-primary-tab-active-dashboard-icon-hover-background-image: url('{varia-url}asset-override/panel-tab--dashboards.svg');
     --sidebar-primary-tab-active-dashboard-icon-hover-background-position: 0 -32px;
     
     /*
@@ -694,22 +694,22 @@
     /*
         Normal state
     */
-    --sidebar-primary-tab-blocks-icon-background-image: url('../assets/images/panel-tab--blocks.svg');
+    --sidebar-primary-tab-blocks-icon-background-image: url('{varia-url}asset-override/panel-tab--blocks.svg');
     --sidebar-primary-tab-blocks-icon-background-position: 0 -128px;
     /*
         Hover state
     */
-    --sidebar-primary-tab-blocks-icon-hover-background-image: url('../assets/images/panel-tab--blocks.svg');
+    --sidebar-primary-tab-blocks-icon-hover-background-image: url('{varia-url}asset-override/panel-tab--blocks.svg');
     --sidebar-primary-tab-blocks-icon-hover-background-position: 0 -64px;
     /*
         Active state
     */
-    --sidebar-primary-tab-active-blocks-icon-background-image: url('../assets/images/panel-tab--blocks.svg');
+    --sidebar-primary-tab-active-blocks-icon-background-image: url('{varia-url}asset-override/panel-tab--blocks.svg');
     --sidebar-primary-tab-active-blocks-icon-background-position: 0 -32px;
     /*
         Active & Hover state
     */
-    --sidebar-primary-tab-active-blocks-icon-hover-background-image: url('../assets/images/panel-tab--dashboards.svg');
+    --sidebar-primary-tab-active-blocks-icon-hover-background-image: url('{varia-url}asset-override/panel-tab--dashboards.svg');
     --sidebar-primary-tab-active-blocks-icon-hover-background-position: 0 -32px;
     
     /*
@@ -718,22 +718,22 @@
     /*
         Normal state
     */
-    --sidebar-primary-tab-filters-icon-background-image: url('../assets/images/panel-tab--filters.svg');
+    --sidebar-primary-tab-filters-icon-background-image: url('{varia-url}asset-override/panel-tab--filters.svg');
     --sidebar-primary-tab-filters-icon-background-position: 0 -128px;
     /*
         Hover state
     */
-    --sidebar-primary-tab-filters-icon-hover-background-image: url('../assets/images/panel-tab--filters.svg');
+    --sidebar-primary-tab-filters-icon-hover-background-image: url('{varia-url}asset-override/panel-tab--filters.svg');
     --sidebar-primary-tab-filters-icon-hover-background-position: 0 -64px;
     /*
         Active state
     */
-    --sidebar-primary-tab-active-filters-icon-background-image: url('../assets/images/panel-tab--filters.svg');
+    --sidebar-primary-tab-active-filters-icon-background-image: url('{varia-url}asset-override/panel-tab--filters.svg');
     --sidebar-primary-tab-active-filters-icon-background-position: 0 -32px;
     /*
         Active & Hover state
     */
-    --sidebar-primary-tab-active-filters-icon-hover-background-image: url('../assets/images/panel-tab--filters.svg');
+    --sidebar-primary-tab-active-filters-icon-hover-background-image: url('{varia-url}asset-override/panel-tab--filters.svg');
     --sidebar-primary-tab-active-filters-icon-hover-background-position: 0 -32px;
     
     
@@ -743,25 +743,25 @@
     /*
         Normal state
     */
-    --sidebar-primary-tab-settings-icon-background-image: url('../assets/images/panel-tab--settings.svg');
+    --sidebar-primary-tab-settings-icon-background-image: url('{varia-url}asset-override/panel-tab--settings.svg');
     --sidebar-primary-tab-settings-icon-background-position: 0 -128px;
     
     /*
         Hover state
     */
-    --sidebar-primary-tab-settings-icon-hover-background-image: url('../assets/images/panel-tab--settings.svg');
+    --sidebar-primary-tab-settings-icon-hover-background-image: url('{varia-url}asset-override/panel-tab--settings.svg');
     --sidebar-primary-tab-settings-icon-hover-background-position: 0 -64px;
         
     /*
         Active state
     */
-    --sidebar-primary-tab-active-settings-icon-background-image: url('../assets/images/panel-tab--settings.svg');
+    --sidebar-primary-tab-active-settings-icon-background-image: url('{varia-url}asset-override/panel-tab--settings.svg');
     --sidebar-primary-tab-active-settings-icon-background-position: 0 -32px;
         
     /*
         Active & Hover state
     */
-    --sidebar-primary-tab-active-settings-icon-hover-background-image: url('../assets/images/panel-tab--settings.svg');
+    --sidebar-primary-tab-active-settings-icon-hover-background-image: url('{varia-url}asset-override/panel-tab--settings.svg');
     --sidebar-primary-tab-active-settings-icon-hover-background-position: 0 -32px;
 
 
