@@ -1,0 +1,1287 @@
+:root {
+    /*
+        Font text for html body
+    */
+    --font-family: "Lato", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+
+    /*
+       Set background of body element
+    */
+    --base-background: #f9f6f8; 
+
+    /*
+       Set progressbar background
+    */
+    --progressbar-background:  linear-gradient(to right, #0288D1, #f9f6f8, #0288D1);
+    /*
+       Set spinner background
+    */
+    --spinner-background-color:  #29B6F6;
+
+    /* 
+        Set link colors
+    */
+    /* 
+        Normal state
+    */
+    --link-color: #007bff;
+    /* 
+        Hover state
+    */
+    --link-hover-color: #0056b3;
+    /* 
+        Active color
+    */
+    --link-active-color: #007bff;
+    /* 
+        Visited State
+    */
+    --link-visited-color: #007bff;
+
+    /* 
+        Toaster Notification - Message notification shows up on bottom right of the screens.
+    */
+    /* 
+        Success
+    */
+    --toaster-success-background-color: #8ee05c;
+    --toaster-success-text-color: #f9f6f8;
+
+    /* 
+        Error
+    */
+    --toaster-error-background-color: #ed1e79;
+    --toaster-error-text-color: #f9f6f8;
+
+    /* 
+        Info
+    */
+    --toaster-info-background-color: #302b2c;
+    --toaster-info-text-color: #f9f6f8;
+
+    /* 
+        Warning
+    */
+    --toaster-warning-background-color: #302b2c;
+    --toaster-warning-text-color: #f9f6f8;
+
+
+    /* Alert notification - Message Notification in form */
+    /* 
+        Success
+    */
+    --alert-success-background-color: none;
+    --alert-success-text-color: #8ee05c;
+    --alert-success-border-color: #8ee05c;
+    /* 
+        Error
+    */
+    --alert-error-background-color: none;
+    --alert-error-text-color: #ed1e79;
+    --alert-error-border-color: #ed1e79;
+
+    /* 
+        Information
+    */
+    --alert-info-text-color: #302b2c;
+    --alert-info-border-color: #302b2c;
+    --alert-info-background-color: none;
+
+    /* 
+        Warning
+    */
+    --alert-warning-background-color: #fff3cd;
+    --alert-warning-text-color: #856404;
+    --alert-warning-border-color: #ffeeba;
+
+
+    /* 
+        Context Menu
+    */
+    /* 
+        Set context menu Colors
+    */
+    --context-menu-background: #ffffff;
+    --context-menu-text-color: black;
+    --context-menu-border-color: #dddddd;
+
+    --context-menu-item-hover-background: #29abe2;
+    --context-menu-item-hover-text-color: #ffffff;
+
+    /* 
+        Buttons
+    */
+    /* 
+        Button Basic - </b> Button basic is used in settings page as update user information button, link analytics and etc. 
+    */
+    /* 
+        Normal state 
+    */
+    --button-basic-background: #f0eaee;
+    --button-basic-text-color: black;
+    --button-basic-border-color:#dbd7da;
+    /* 
+        Hover state 
+    */
+    --button-basic-hover-background: #ffffff;
+    --button-basic-hover-text-color: #302b2c;
+    --button-basic-hover-border-color: #f0eaee;
+    /*
+        Active state 
+    */
+    --button-basic-active-background: none;
+    --button-basic-active-text-color: none;
+    --button-basic-active-border-color: none;
+    /* 
+        Focus state
+    */
+    --button-basic-focus-background: none;
+    --button-basic-focus-text-color: none;
+    --button-basic-focus-border-color: none;
+    /*  
+        Disabled state
+    */
+    --button-basic-disabled-background: none;
+    --button-basic-disabled-text-color: none;
+    --button-basic-disabled-border-color: none; 
+
+    /* 
+        Button primary - Used in form and modal as submit button, ok button and etc.
+    */
+    /* 
+        Normal state 
+    */
+    --button-primary-background: #f0eaee;
+    --button-primary-text-color: #302b2c;
+    --button-primary-border-color:#29B6F6;
+    /* 
+        Hover state 
+    */
+    --button-primary-hover-background: #f0eaee;
+    --button-primary-hover-text-color: #302b2c;
+    --button-primary-hover-border-color: #29B6F6;
+    /* 
+        Active state 
+    */
+    --button-primary-active-background: #f9f6f8;
+    --button-primary-active-text-color: #ffffff;
+    --button-primary-active-border-color: #29B6F6;
+    /* 
+        Focus state 
+    */
+    --button-primary-focus-background: #f0eaee;
+    --button-primary-focus-text-color: #302b2c;
+    --button-primary-focus-border-color: #29B6F6;
+    /* 
+        Disabled state 
+    */
+    --button-primary-disabled-background: #ffffff;
+    --button-primary-disabled-text-color: #c4bec1;
+    --button-primary-disabled-border-color: #f9f6f8; 
+
+    /* 
+        Button secondary - Used in form and modal as cancel button, close button and etc.
+    */
+    /* 
+        Normal state 
+    */
+    --button-secondary-background: #f0eaee;
+    --button-secondary-text-color: #302b2c;
+    --button-secondary-border-color:transparent;
+    /* 
+        Hover state 
+    */
+    --button-secondary-hover-background: #f0eaee;
+    --button-secondary-hover-text-color: #302b2c;
+    --button-secondary-hover-border-color: #29B6F6;
+    /* 
+        Active state 
+    */
+    --button-secondary-active-background: #f9f6f8;
+    --button-secondary-active-text-color: #ffffff;
+    --button-secondary-active-border-color: #29B6F6;
+    /* 
+        Focus state 
+    */
+    --button-secondary-focus-background: #f0eaee;
+    --button-secondary-focus-text-color: #302b2c;
+    --button-secondary-focus-border-color: transparent;
+    /* 
+        Disabled state 
+    */
+    --button-secondary-disabled-background: #ffffff;
+    --button-secondary-disabled-text-color: #c4bec1;
+    --button-secondary-disabled-border-color: #f9f6f8; 
+
+
+    /* Button Icons */
+    /* 
+        Delete icon 
+    */
+    /*
+        Set delete icon properties
+    */
+    --delete-icon-background-image: url('./../assets/images/icon-delete.svg');
+    --delete-icon-background-position: 0px 1px;
+    --delete-icon-vertical-align: middle;
+    --delete-icon-background-size: 16px 12px;
+
+    /* 
+        Edit icon 
+    */
+    /*
+        Set edit icon properties
+    */
+    --edit-icon-background-image: url('./../assets/images/icon-edit.svg');
+    --edit-icon-background-position: 0px 0px;
+    --edit-icon-vertical-align: middle;
+    --edit-icon-background-size: 16px 12px;
+
+    /* 
+        Select - Used in form, sidebar and etc
+    */
+    /* 
+       Normal state
+    */
+    --select-background: #f0eaee;
+    --select-text-color: #231f20;
+    --select-placeholder-text-color: #9c979a;
+        
+    /* 
+        Normal state arrow icons 
+    */
+    --select-arrow-icon-background-image: url('../assets/images/varia-select-sprite.svg');
+    --select-arrow-icon-background-position: -29px 4px;
+    --select-arrow-icon-background-size: auto;
+        
+    /* 
+        Hover state
+    */
+    --select-hover-background: #f9f6f8;
+    --select-hover-text-color: #231f20;
+    --select-placeholder-hover-text-color: #9c979a;
+
+    /* 
+        Hover state arrow icons 
+    */
+    --select-arrow-icon-hover-background-image: url('../assets/images/varia-select-sprite.svg');
+    --select-arrow-icon-hover-bbackground-size: auto;
+    --select-arrow-icon-hover-background-position: -29px 28px;
+    
+    /* 
+        Disabled state 
+    */
+    --select-disabled-background: #f9f6f8;
+    --select-disabled-text-color: #c4bec1;
+    --select-placeholder-disabled-text-color: #9c979a;
+    
+    /* 
+        Disabled state arrow icons 
+    */
+    --select-arrow-icon-disabled-background-image: url('../assets/images/varia-select-sprite.svg');
+    --select-arrow-icon-disabled-background-size: auto;
+    --select-arrow-icon-disabled-background-position: -29px 4px;
+
+
+    /*
+        Select Popup menu - Appears when a user click a select element 
+    */
+    /*
+        Normal State state
+    */
+    --select-popup-selection-background:  #302b2c;
+    --select-popup-selection-text-color: #f0eaee;
+    
+    /*
+        Hover state
+    */
+    --select-popup-selection-hover-background: #29B6F6;
+    --select-popup-selection-hover-text-color: #ffffff;
+        
+    /*
+        Set pop up scroll up and down colors 
+    */
+    /*
+        Normal state
+    */
+    --select-popup-scrollup-background: #302b2c;
+    --select-popup-scrolldown-background:#302b2c;
+
+    /*
+        Hover state
+    */
+    --select-popup-scrollup-hover-background: #302b2c;
+    --select-popup-scrolldown-hover-background:#302b2c;
+    
+    /*
+        Set scroll up and scroll down icon
+    */
+    /*
+        Normal state 
+    */
+    --select-popup-scroll-up-icon-background-image: url('../assets/images/varia-select-scroll-sprite.svg');
+    --select-popup-scroll-up-icon-background-position: -6px 0px;
+
+    --select-popup-scroll-down-icon-background-image: url('../assets/images/varia-select-scroll-sprite.svg');
+    --select-popup-scroll-down-icon-background-position: -6px -22px;
+    
+    /*
+        Hover state 
+    */
+    --select-popup-scroll-up-icon-hover-background-image: url('../assets/images/varia-select-scroll-sprite.svg');
+    --select-popup-scroll-up-icon-hover-background-position: -27px 0px;
+
+    --select-popup-scroll-down-icon-hover-background-image: url('../assets/images/varia-select-scroll-sprite.svg');
+    --select-popup-scroll-down-icon-hover-background-position: -27px -22px;
+
+
+    /* 
+        Slider - Used in primary sidebar to filter chart atomicity <br>
+    */   
+    /*
+        Set slider colors
+    */
+    --slider-label-color-primary:black;
+    --slider-line-color-primary:black;
+    --slider-line-circle-background-primary:black;
+    --slider-line-circle-border-color-primary:#29B6F6;
+
+    /* 
+        Modal - Used in connecting ad network, changing google anytics account and etc 
+    */
+    /*
+        Set modal colors
+    */
+    --modal-background-color: #ffffff;
+    --modal-text-color: black;
+    --modal-border-color: #e9ecef;
+
+
+    /* 
+        Popover menu  
+    */
+    /*
+        Set pop over menu colors
+    */
+    --popover-menu-background: #231f20;
+    --popover-menu-text-color: #ffffff;
+
+
+    /* 
+        Navigation bar 
+    */
+
+    /*
+        Set navigation bar colors
+    */
+    --navbar-background-color: #231f20;
+    /*
+        Set navbar-brand background size width and height
+    */
+    --navbar-primary-brand-background: url('../assets/images/varia-logo-title.svg') center no-repeat;
+    /*
+        Set navbar-brand background size width and height
+    */
+    --navbar-primary-brand-width: 300px;
+    --navbar-primary-brand-height: 48px;
+
+    /* 
+        Burger menu  - An icon on the left side of navigation bar that opens up sidebar when clicked 
+    */
+    /*
+        Set burger menu background size width and height
+    */
+    --navbar-burger-menu-width: 42px;
+    --navbar-burger-menu-height: 48px;
+
+    /*
+        Normal state
+    */
+    --navbar-burger-menu-background: url('../assets/images/dashboard-menu.svg') no-repeat;
+    --navbar-burger-menu-background-position: left 0;
+    
+    /*
+        Active state
+    */
+    --navbar-active-burger-menu-background-position:  left -48px;
+
+    /* 
+        Navbar toggle - DIV container of burger menu and navbar brand.
+    */
+    /*
+        Set navbar toggle background
+    */
+    /*
+        Normal state
+    */
+    --navbar-toggle-background: transparent;
+    
+    /*
+        Hover state
+    */
+    --navbar-toggle-hover-background: #474545;
+
+    /* 
+        Navbar user menu  - Used in right side of navigation bar, displays user email and organization.  
+    */
+    /*
+        Set user menu colors
+    */
+    /*
+        Normal state
+    */
+    --navbar-user-menu-background: transparent;
+    --navbar-user-menu-text-color: #f9f6f8;
+
+    /*
+        Hover state
+    */
+    --navbar-user-menu-hover-background: black;
+    --navbar-user-menu-hover-text-color: #f9f6f8;
+
+    /* 
+        Navbar button group - Used in navbar to change view of dashboard to mobile, web, and tablet mode.
+    */
+    /*
+        Set button group colors
+    */
+    --navbar-button-group-border-color: #474545;
+    
+    /*
+        Normal state
+    */
+    --navbar-button-group-background: #1f1b1c;
+    --navbar-button-group-text-color: #ffffff;
+    
+    /*
+        Hover state
+    */
+    --navbar-button-group-hover-background-color: #363132;
+    --navbar-button-group-hover-text-color: #ffffff;
+    
+    /*
+        Active state
+    */
+    --navbar-button-group-selected-background: #1f1b1c; 
+    --navbar-button-group-selected-text-color: #ff4597; 
+
+    /* 
+        Navbar menu item - items in navigation bar such as export ppt </b> 
+    */
+
+    /*
+        Set navbar menu item colors
+    */
+    /*
+        Normal state
+    */
+    --navbar-menu-item-background: transparent;
+        
+    /*
+        Hover state
+    */
+    --navbar-menu-item-hover-background-color: #474545;
+    
+    /*
+        Set Export PPT image
+    */
+    --navbar-menu-item-export-ppt-icon-background-image: url('../assets/images/export-ppt.svg');
+    --navbar-menu-item-export-ppt-icon-background-size: 48px;
+    --navbar-menu-item-export-ppt-icon-background-position: left 0;
+
+
+    /* 
+        Sub Navigation bar - Sub navigation bar in settings page
+    */
+    /*
+        Sub navigation bar color
+    */
+    --sub-navbar-background: #f0eaee;
+
+    /*
+        Set sub navigation menu item color
+    */
+    /*
+        Normal state
+    */
+    --sub-navbar-menu-item-background: transparent;
+    --sub-navbar-menu-item-text-color: black;
+    /*
+        Hover state
+    */
+    --sub-navbar-menu-item-hover-background: #dbd7da;
+    --sub-navbar-menu-item-hover-text-color: black;
+    
+    /*
+        Set add new user background icon and background position
+    */
+    --sub-navbar-add-new-user-icon-background-image: url('../assets/images/management-menu-button.svg');
+    --sub-navbar-add-new-user-icon-background-position: -336px 0px;
+    
+    /*
+        Set add new role background icon and background position
+    */
+    --sub-navbar-add-new-role-icon-background-image: url('../assets/images/management-menu-button.svg');
+    --sub-navbar-add-new-role-icon-background-position: -336px 0px;
+    /*
+        Set add new policy background icon and background position
+    */
+    --sub-navbar-add-new-policy-icon-background-image: url('../assets/images/management-menu-button.svg');
+    --sub-navbar-add-new-policy-icon-background-position: -336px 0px;
+    /*
+        Set add new tag background icon and background position
+    */
+    --sub-navbar-add-new-tag-icon-background-image: url('../assets/images/management-menu-button.svg');
+    --sub-navbar-add-new-tag-icon-background-position: -336px 0px;
+    /*
+        Set change password background icon and background position
+    */
+    --sub-navbar-change-password-icon-background-image: url('../assets/images/management-menu-button.svg');
+    --sub-navbar-change-password-icon-background-position: -624px 0px;
+    /*
+        Set change email background icon and background position
+    */
+    --sub-navbar-change-email-icon-background-image: url('../assets/images/management-menu-button.svg');
+    --sub-navbar-change-email-icon-background-position: -624px 0px;
+    /*
+        Set create dashboard background icon and background position
+    */
+    --sub-navbar-create-dashboard-icon-background-image: url('../assets/images/management-menu-button.svg');
+    --sub-navbar-create-dashboard-icon-background-position: -336px 0px;
+    /*
+        Set create new goal background icon and background position
+    */
+    --sub-navbar-create-new-goal-icon-background-image: url('../assets/images/management-menu-button.svg');
+    --sub-navbar-create-new-goal-icon-background-position: -336px 0px;
+    /*
+        Set delete goal background icon and background position
+    */
+    --sub-navbar-delete-goal-icon-background-image: url('../assets/images/management-menu-button.svg');
+    --sub-navbar-delete-goal-icon-background-position: -384px 0px;
+    /*
+        Set add connector background icon and position
+    */
+    --sub-navbar-add-connector-icon-background-image: url('../assets/images/management-menu-button.svg');
+    --sub-navbar-add-connector-icon-background-position: -336px 0px;
+    /*
+        Set add  youtube channel background icon and position
+    */
+    --sub-navbar-add-youtube-channel-icon-background-image: url('../assets/images/management-menu-button.svg');
+    --sub-navbar-add-youtube-channel-icon-background-position: -336px 0px;
+    /*
+        Set add site url background icon and position
+    */
+    --sub-navbar-add-site-url-icon-background-image: url('../assets/images/management-menu-button.svg');
+    --sub-navbar-add-site-url-icon-background-position: -336px 0px;
+    /*
+        Set add new payment method background icon and position
+    */
+    --sub-navbar-add-new-payment-method-icon-background-image: url('../assets/images/management-menu-button.svg');
+    --sub-navbar-add-new-payment-method-icon-background-position: -336px 0px;
+
+
+    /* 
+        Tag Panel - Used in manage tag page, this element list all tags avalaible</b> 
+    */
+    /*
+        Set panel colors
+    */
+    --tag-panel-background-color: transparent;
+    --tag-panel-text-color: black;
+    --tag-panel-border-color: #dbd7da;
+    
+    /*
+        Set panel menu item Colors
+    */
+    /*
+        Normal state
+    */
+    --tag-panel-menu-item-text-color: black;
+    --tag-panel-menu-item-background-color:transparent;
+    /*
+        Hover state
+    */
+    --tag-panel-menu-item-hover-text-color: #29B6F6;
+    --tag-panel-menu-item-hover-background:transparent;
+    /*
+        Active state
+    */
+    --tag-panel-menu-item-active-text-color: #29B6F6;
+    --tag-panel-menu-item-active-background:#EFEFEF;
+
+
+    /* 
+        Tag Chips And Badge - Used in chartblock for user to include and exlude multiple tags in chart. 
+    */
+    /*
+        Set Tag chips and badge colors
+    */
+    /*
+        Normal state
+    */
+    --tag-chips-background-color: #29B6F6;
+    --tag-badge-background-color: rgba(0,0,0,.2);
+    --tag-chips-text-color: #ffffff;
+    /*
+        Focus state
+    */
+    --tag-chips-focus-background-color: #0a9fe2;
+    --tag-badge-focus-text-color: #ffffff;
+    --tag-badge-focus-background-color:rgba(0,0,0,.2);
+
+
+    /* 
+        Tag Control button - Used in manage tag page as delete and edit button
+    */
+    /*
+        Set button control color
+    */
+    --tag-button-control-text-color: black;
+    --tag-button-control-background-color: #ffffff;
+    --tag-button-control-border-color: #dbd7da;
+
+
+
+    /* Sidebar  */
+    
+    /* Base style - Base styles of sidebar */
+    /*
+        Set sidebar background color and text color 
+    */
+    --sidebar-background: #f0eaee;
+    --sidebar-text-color: #231f20;
+
+    /* Sidebar tabs */
+    /*
+        Set tab item border bottom
+    */
+    /*
+        Active state
+    */
+    --sidebar-primary-tab-item-border-bottom-active-color: #302b2c;
+    /*
+        Hover state
+    */
+    --sidebar-primary-tab-item-border-bottom-hover-color: #c4bec1; 
+    /*
+        Set dashboard tab icon
+    */
+    /*
+        Normal state
+    */
+    --sidebar-primary-tab-dashboard-icon-background-image: url('../assets/images/panel-tab--dashboards.svg');
+    --sidebar-primary-tab-dashboard-icon-background-position: 0 -128px;
+    /*
+        Hover state
+    */
+    --sidebar-primary-tab-dashboard-icon-hover-background-image: url('../assets/images/panel-tab--dashboards.svg');
+    --sidebar-primary-tab-dashboard-icon-hover-background-position: 0 -64px;
+    /*
+        Active state
+    */
+    --sidebar-primary-tab-active-dashboard-icon-background-image: url('../assets/images/panel-tab--dashboards.svg');
+    --sidebar-primary-tab-active-dashboard-icon-background-position: 0 -32px;
+    
+    /*
+        Active & Hover state
+    */
+    --sidebar-primary-tab-active-dashboard-icon-hover-background-image: url('../assets/images/panel-tab--dashboards.svg');
+    --sidebar-primary-tab-active-dashboard-icon-hover-background-position: 0 -32px;
+    
+    /*
+        Set chart block tab icon
+    */
+    /*
+        Normal state
+    */
+    --sidebar-primary-tab-blocks-icon-background-image: url('../assets/images/panel-tab--blocks.svg');
+    --sidebar-primary-tab-blocks-icon-background-position: 0 -128px;
+    /*
+        Hover state
+    */
+    --sidebar-primary-tab-blocks-icon-hover-background-image: url('../assets/images/panel-tab--blocks.svg');
+    --sidebar-primary-tab-blocks-icon-hover-background-position: 0 -64px;
+    /*
+        Active state
+    */
+    --sidebar-primary-tab-active-blocks-icon-background-image: url('../assets/images/panel-tab--blocks.svg');
+    --sidebar-primary-tab-active-blocks-icon-background-position: 0 -32px;
+    /*
+        Active & Hover state
+    */
+    --sidebar-primary-tab-active-blocks-icon-hover-background-image: url('../assets/images/panel-tab--dashboards.svg');
+    --sidebar-primary-tab-active-blocks-icon-hover-background-position: 0 -32px;
+    
+    /*
+        Set filters tab icon
+    */
+    /*
+        Normal state
+    */
+    --sidebar-primary-tab-filters-icon-background-image: url('../assets/images/panel-tab--filters.svg');
+    --sidebar-primary-tab-filters-icon-background-position: 0 -128px;
+    /*
+        Hover state
+    */
+    --sidebar-primary-tab-filters-icon-hover-background-image: url('../assets/images/panel-tab--filters.svg');
+    --sidebar-primary-tab-filters-icon-hover-background-position: 0 -64px;
+    /*
+        Active state
+    */
+    --sidebar-primary-tab-active-filters-icon-background-image: url('../assets/images/panel-tab--filters.svg');
+    --sidebar-primary-tab-active-filters-icon-background-position: 0 -32px;
+    /*
+        Active & Hover state
+    */
+    --sidebar-primary-tab-active-filters-icon-hover-background-image: url('../assets/images/panel-tab--filters.svg');
+    --sidebar-primary-tab-active-filters-icon-hover-background-position: 0 -32px;
+    
+    
+    /*
+        Set settings tab icon 
+    */
+    /*
+        Normal state
+    */
+    --sidebar-primary-tab-settings-icon-background-image: url('../assets/images/panel-tab--settings.svg');
+    --sidebar-primary-tab-settings-icon-background-position: 0 -128px;
+    
+    /*
+        Hover state
+    */
+    --sidebar-primary-tab-settings-icon-hover-background-image: url('../assets/images/panel-tab--settings.svg');
+    --sidebar-primary-tab-settings-icon-hover-background-position: 0 -64px;
+        
+    /*
+        Active state
+    */
+    --sidebar-primary-tab-active-settings-icon-background-image: url('../assets/images/panel-tab--settings.svg');
+    --sidebar-primary-tab-active-settings-icon-background-position: 0 -32px;
+        
+    /*
+        Active & Hover state
+    */
+    --sidebar-primary-tab-active-settings-icon-hover-background-image: url('../assets/images/panel-tab--settings.svg');
+    --sidebar-primary-tab-active-settings-icon-hover-background-position: 0 -32px;
+
+
+    /* Sidebar action links - Used in primary sidebar as save dashboard and save snapshot menu item */
+    /*
+       Set Action link colors
+    */
+    /*
+       Normal state
+    */
+    --sidebar-action-link-text-color: #03A9F4;
+    --sidebar-action-link-background: #f0eaee;
+    /*
+       Hover state
+    */
+    --sidebar-action-link-hover-text-color: #03A9F4;
+    --sidebar-action-link-hover-background:#dbd7da;
+    
+    /*
+       Disabled state
+    */
+    --sidebar-action-link-disabled-text-color:#c4bec1;
+    --sidebar-action-link-disabled-background:transparent;
+
+
+    /* 
+        Sidebar menu item 
+    */
+    /*
+       Set sidebar menu item colors
+    */
+    /*
+       Normal state
+    */
+    --sidebar-menu-item-text-color:#231f20;
+    --sidebar-menu-item-background:#f0eaee;
+    --sidebar-menu-item-font-weight: normal;
+    /*
+       Hover state
+    */
+    --sidebar-menu-item-hover-text-color:#231f20;
+    --sidebar-menu-item-hover-background:#dbd7da;
+    --sidebar-menu-item-hover-font-weight: normal;
+    /*
+       Active state
+    */
+    --sidebar-menu-item-active-background:#dbd7da;
+    --sidebar-menu-item-active-text-color:#231f20;
+    --sidebar-menu-item-active-font-weight: bold;
+
+
+    /*
+       Set sidebar form label color
+    */
+    --side-bar-form-label-text-color:black;
+    
+    /*
+       Set sidebar form input colors
+    */
+    /*
+       Normal state
+    */
+    --side-bar-form-input-background: #f0eaee;
+    --side-bar-form-input-text-color: #231f20;
+    --side-bar-form-input-border-color: transparent;
+    --side-bar-form-input-placeholder-text-color: #231f20;
+    
+    /*
+       Hover state
+    */
+    --side-bar-form-input-hover-background: #f9f6f8;
+    --side-bar-form-input-hover-text-color: #302b2c;
+    --side-bar-form-input-hover-placeholder-text-color: #231f20;
+
+    
+    /*
+       Active state
+    */
+    --side-bar-form-input-active-background: #ffffff;
+    --side-bar-form-input-active-text-color: #231f20;
+    --side-bar-form-input-active-border-color:#29B6F6;
+    --side-bar-form-input-active-placeholder-text-color: #231f20;
+    
+    /*
+       Focus state
+    */
+    --side-bar-form-input-focus-background: #ffffff;
+    --side-bar-form-input-focus-text-color: #231f20;
+    --side-bar-form-input-focus-border-color:#29B6F6;
+    --side-bar-form-input-focus-placeholder-text-color: #231f20;
+    
+    /*
+       Disabled state
+    */
+    --side-bar-form-input-disabled-background: #f9f6f8;
+    --side-bar-form-input-disabled-text-color: #c4bec1;
+    --side-bar-form-input-disabled-placeholder-text-color: #231f20;
+
+
+    /* 
+        Settings Page 
+    */
+    /*
+       Set settings page text colors
+    */
+    --settings-page-primary-text-color: black;
+    --setings-page-secondary-text-color: #9c979a;
+
+    /* 
+        Sub sidebar - Used in goals page, web analytics page and web master page</b>  
+    */
+    /*
+       Set sub sidebar border and color
+    */
+    --settings-sub-sidebar-background: transparent;
+    --settings-sub-sidebar-border-color: #f0eaee;
+    
+    /*
+       Normal state
+    */
+    --settings-sub-sidebar-item-background: transparent;
+    --settings-sub-sidebar-item-text-color: black;
+    
+    /*
+        Hover state
+    */
+    --settings-sub-sidebar-item-hover-background: #f0eaee;
+    --settings-sub-sidebar-item-hover-text-color: inherit;
+    
+    /*
+        Active state
+    */
+    --settings-sub-sidebar-item-active-color: #29B6F6;
+    --settings-sub-sidebar-item-active-background: transparent;
+
+
+    /* 
+        Content editable title - Used in personal settings page as input to edit user name 
+    */
+    /*
+       Set content editable colors 
+    */
+    /*
+      Normal State
+    */
+    --settings-page-content-editable-title-background: transparent;
+    --settings-page-content-editable-title-text-color: black;
+    --settings-page-content-editable-title-border-color: #f0eaee;
+    /*
+      Hover State
+    */
+    --settings-page-content-editable-title-hover-background: transparent;
+    --settings-page-content-editable-title-hover-text-color: black;
+    --settings-page-content-editable-title-hover-border-color: #f0eaee;
+    /*
+      Focus State
+    */
+    --settings-page-content-editable-title-focus-background: transparent;
+    --settings-page-content-editable-title-focus-text-color: black;
+    --settings-page-content-editable-title-focus-border-color: #29B6F6;
+
+
+    /* Inputs - Used in settings page */
+    /*
+      Set settings page, input label text color
+    */
+    --settings-page-input-label-text-color: black;
+    
+    /*
+      Set settings page input colors
+    */
+    /*
+      Normal state
+    */
+    --settings-page-input-background: #f9f6f8;
+    --settings-page-input-text-color: black;
+    --settings-page-placeholder-text-color: #a9a9a9;
+    /*
+      Disabled state
+    */
+    --settings-page-input-disabled-background: #f0eaee;
+    --settings-page-input-disabled-text-color: #9c979a;
+    --settings-page-placeholder-disabled-text-color: #a9a9a9;
+    /*
+      Hover state
+    */
+    --settings-page-input-hover-background: #f9f6f8;
+    --settings-page-input-hover-text-color: black;
+    --settings-page-placeholder-hover-text-color: #a9a9a9;
+    /*
+      Active state
+    */
+    --settings-page-input-active-background: #F0F4F8;
+    --settings-page-input-active-text-color: #222222;
+    --settings-page-placeholder-active-text-color: #a9a9a9;
+    /*
+      Focus state
+    */
+    --settings-page-input-focus-background: #f9f6f8;
+    --settings-page-input-focus-text-color: black;
+    --settings-page-placeholder-focus-text-color: #a9a9a9;
+
+    /* 
+        Tables 
+    */
+    /*
+      Set table colors
+    */
+    --table-border-color: #dbd7da;
+    --table-th-color: #f0eaee;
+    --table-body-background-color: #f9f6f8;
+    --table-td-action-link: #03A9F4;
+
+
+    /* Collapsible Panel  */
+    
+    /*
+        Set collapsible panel background
+    */
+    --collapsible-panel-background: #f0eaee;
+    /*
+        Set collapsible title colors
+    */
+    /*
+        Normal State
+    */
+    --collapsible-panel-title-background: #363132;
+    --collapsible-panel-title-text-color: #ffffff;
+    --collapsible-panel-arrow-background: #363132;
+    /*
+        Hover state
+    */
+    --collapsible-panel-title-hover-background: #494243;
+    
+    /*
+        Set collapsible panel expanded colors
+    */
+    --collapsible-panel-expanded-arrow-background: #212529;
+    --collapsible-panel-expanded-title-text-color: #212529;
+    --collapsible-panel-expanded-background: transparent;
+    --collapsible-panel-expanded-text-color: inherit;
+
+    --collapsible-panel-border-color: #dbd7da;
+
+    /*
+        Set collapsible panel button color
+    */
+    --collapsible-panel-button-text-color: black;
+    --collapsible-panel-button-background-color: #ffffff;
+    --collapsible-panel-button-border-color: #dbd7da;
+
+
+    /* 
+        Step Wizard
+    */
+    /* 
+       Set step wizard content colors;
+    */
+    --wizard-content-border-color: #dbd7da;
+    --wizard-content-text-color: inherit;
+    /* 
+        Set step wizard item colors
+    */
+    /* 
+        Normal state
+    */
+    --wizard-item-background: #dbd7da;
+    --wizard-item-text-color: #ffffff;
+    /* 
+        Active state
+    */
+    --wizard-item-active-background: #f9f6f8;
+    --wizard-active-active-item-text-color: #ffffff;
+    /* 
+        Disabled state
+    */
+    --wizard-item-disabled-background: #ffffff;
+    --wizard-item-disabled-text-color: #f9f6f8;
+
+
+    /* List group */
+    /* 
+      Set list group select background 
+    */
+    --list-group-select-background: #ffffff;
+    
+    /* 
+       Set list group item color 
+    */
+    /* 
+        Normal State
+    */
+    --list-group-select-item-background: #f0eaee;
+    --list-group-select-title-text-color: inherit;
+    --list-group-select-sub-title-text-color: #c4bec1;
+    
+    /* 
+        Hover State
+    */
+    --list-group-select-item-hover-background: #f0eaee;
+    --list-group-select-title-hover-text-color: #ffffff;
+    --list-group-select-sub-title-hover-text-color: #ffffff;
+    --list-group-select-parent-item-title-hover-text-color: black;
+    --list-group-select-parent-item-sub-title-hover-text-color: black;
+    
+    /* 
+        Active State
+    */
+    --list-group-select-item-active-background: #f9f6f8;
+    --list-group-select-title-active-text-color: #ffffff;
+    --list-group-select-sub-title-active-text-color: #ffffff;
+    --list-group-select-parent-item-active-background: #42c6ff73;
+
+
+    /* Subscription card */
+    /* 
+        Set subscription color
+    */
+    --subcription-card-border-color: #f0eaee;
+        
+    /* 
+        Normal State 
+    */
+    --subcription-card-background: #f9f6f8;
+    --subcription-card-pricing-text-color: black;
+    --subcription-card-description-text-color: #474545;
+
+    /* 
+        Active State 
+    */
+    --subcription-card-active-background: #f0eaee;
+    --subcription-card-active-price-text-color: black;
+    --subcription-card-active-description-text-color: #474545;
+    
+    
+    /*
+        Set subscription card button color 
+    */
+    /*
+        Normal State
+    */
+    --subcription-card-button-background: #29B6F6;
+    --subcription-card-button-text-color: #ffffff;
+    /*
+        Disabled State
+    */
+    --subcription-card-button-disabled-background: #ffffff;
+    --subcription-card-button-disabled-text-color: #c4bec1;
+
+    /* 
+        Billing credit card element
+    */
+    /*
+        Set billing credit text and action link color
+    */
+    --billing-credit-card-primary-text-color: #231f20;
+    --billing-credit-card-secondary-text-color: #9c979a;
+    --billing-credit-card-action-link-color: #29B6F6;
+    
+    /*
+        Set billing credit card color 
+    */
+    --billing-credit-card-background: #ffffff;
+    --billing-credit-card-border-color: #f0eaee;
+    
+    /*
+        Set Active billing credit card color 
+    */
+    --billing-credit-card-active-border-color: #039BE5;
+    
+    /*
+        Set Expired billing credit card color 
+    */
+    --billing-credit-card-expired-border-color: #da2222;
+    
+    /*
+        Set badge colors
+    */
+    --billing-credit-card-default-badge-background: #039BE5;
+    --billing-credit-card-default-badge-text-color: #ffffff;
+
+
+    /* 
+        Snapshot warning - Appears when you've made changes on snapshot 
+    */
+    /*
+        Set snapshot warning color
+    */
+    --snapshot-warning-background: #ff4597;
+    --snapshot-warning-text-color: #f9f6f8;
+    
+    /*
+        Set snapshot button color
+    */
+    /*
+        Normal state
+    */
+    --snapshot-button-background: #302b2c;
+    --snapshot-button-text-color: #c4bec1;
+    --snapshot-button-border-color:transparent;
+    
+    /*
+        Hover state
+    */
+    --snapshot-button-hover-background: #363132;
+    --snapshot-button-hover-text-color: #ffffff;
+    --snapshot-button-hover-border-color: transparent;
+
+    /*
+        Active state
+    */
+    --snapshot-button-active-background: #29B6F6;
+    --snapshot-button-active-text-color: #f0eaee;
+    --snapshot-button-active-border-color: #ffffff;
+
+    /*
+        Focus state
+    */
+    --snapshot-button-focus-background: #302b2c;
+    --snapshot-button-focus-text-color: #ffffff;
+    --snapshot-button-focus-border-color: #29B6F6;
+
+    /*
+        Disabled state
+    */
+    --snapshot-button-disabled-background: #231f20;
+    --snapshot-button-disabled-text-color: #474545;
+    --snapshot-button-disabled-border-color: #302b2c;  
+
+
+    /* Chart Block */
+    
+    /* 
+        Base styles
+    */
+    /*
+        Set chartblock proggress bar color
+    */
+    --chart-block-progress-bacground: #29B6F6; 
+    
+    /*
+        Set chartblock resize border color
+    */
+    --chart-block-resize-border-color: #29B6F6;
+    --chart-block-resize-border-opacity: 0.4;
+    
+    /*
+        Set chartblock drag position helper color
+    */
+    --chart-block-drag-position-helper-border: 2px dashed #dbd7da;
+    
+    /*
+        Set chart block merging highlight style
+    */
+    --chart-block-merge-hightlight-bow-shadow: 0px 0px 5px 2px #42c7ff;
+    
+    /*
+        Set chart block title text font and color
+    */
+    --chart-block-title-font-weight: bold;
+    --chart-block-title-text-color: black;
+
+    /*
+        Set chart block head and body colors 
+    */
+    --chart-block-body-background: #ffffff;
+    --chart-block-head-background: linear-gradient(to bottom, #ffffff 20%, rgba(255, 255, 255, 0.8) 75%, rgba(255, 255, 255, 0) 100%);
+
+
+    /* 
+        Chart block settings panel 
+    */
+    /*
+        Set chart block setings panel colors
+    */
+    --chart-block-settings-panel-key-background: #f9f6f8;
+    --chart-block-settings-panel-key-text-color: black;
+    --chart-block-settings-panel-key-font-weight: bold;
+
+    --chart-block-settings-panel-group-key-background: transparent;
+    --chart-block-settings-panel-group-key-text-color: black;
+    --chart-block-settings-panel-group-key-font-weight: bold;
+    --chart-block-settings-panel-group-key-border: 1px solid #dbd7da;
+
+    /* 
+        Chart block time series chart
+    */
+    /*
+        Set time series colors
+    */
+    --chart-block-time-series-chart-axis-color: #dbd7da;
+    --chart-block-time-series-chart-axis-label-text-color: black;
+    --chart-block-time-series-chart-axis-tick-text-color: #000;
+    --chart-block-time-series-chart-axis-date-separator-text-color: lightgrey;
+
+    /* 
+        Chart block tabular chart
+    */
+    /*
+        Set tabular chart colors
+    */
+    --chart-block-tabular-chart-header-background: #f9f6f8;
+    --chart-block-tabular-chart-header-text-color: black;
+
+    --chart-block-tabular-chart-table-cell-background: transparent;
+    --chart-block-tabular-chart-table-cell-text-color: black;
+
+    --chart-block-tabular-chart-row-border-bottom-color: 1px solid #dbd7da;
+    --chart-block-tabular-chart-action-link-text-color: #29B6F6;
+
+
+    /* 
+        Chart block hierarchical chart
+    */
+    /*
+        Set hierarchical chart color 
+    */
+    --chart-block-hierarchical-chart-background: transparent;
+    --chart-block-hierarchical-chart-row-border: 1px solid #dbd7da;
+    --chart-block-hierarchical-chart-text-color: black;
+    --chart-block-hierarchical-chart-action-link-text-color: #29B6F6;
+
+}   
