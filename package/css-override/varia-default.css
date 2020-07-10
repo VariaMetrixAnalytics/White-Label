@@ -1284,4 +1284,11 @@
     --chart-block-hierarchical-chart-text-color: black;
     --chart-block-hierarchical-chart-action-link-text-color: #29B6F6;
 
+    /* 
+        Chart block Page flow
+    */
+    /*
+        Set page flow color 
+    */
+    --chart-block-chart-page-flow-text-color: black;
 }   

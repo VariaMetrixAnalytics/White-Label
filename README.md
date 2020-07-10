@@ -63,7 +63,7 @@ Assets is supported by following format : .apng, .bmp, .gif, .ico, .cur, .jpg, .
 
 ## Styles
 
-<a href="./package/css-verride/varia-default" ta>varia-default.css</a> this file contains all variables we use to theme VariaMetrix. Any variable not defined in package styles will revert to the VariaMetrix default.
+<a href="./package/css-override/varia-default" ta>varia-default.css</a> this file contains all variables we use to theme VariaMetrix. Any variable not defined in package styles will revert to the VariaMetrix default.
 
 Here's an example that changes the background color of navigation bar.
 
