@@ -1,19 +1,22 @@
 # White-Label
-VariaMetrix is a professional dashboard development, expert-driven reporting insights, and creative ad design.
+VariaMetrix is a tool for professional dashboard development,
+expert-driven reporting insights, and creative ad design.
 
 # Table of contents
 - [Getting Started](#getting-started)
-	- [package.varia.json Structure](#package.varia.json-structure)
-  - [Styles](#styles)
-  - [Assets](#assets)
-  - [Installing package in VariaMetrix](#installing-package-in-variametrix)
-- [Example](./example/EXAMPLE.md)
-- [Testing Hint](#testing-hint)
+- [Styles](#styles)
+- [Assets](#assets)
+- [Components](#components)
+- [Installation](#installation)
 
 
-# Getting Started 
+# Getting Started
 
-## package.varia.json Structure
+The fastest way to begin is to clone this repository and replace the
+assets and styles in-place.
+
+The core of your theme is the package.varia.json file which lets
+VariaMetrix know what assets to look for and replace.
 
 ```json
 {
@@ -31,7 +34,7 @@ VariaMetrix is a professional dashboard development, expert-driven reporting ins
       {
         "chartblock": [
           {
-            "type": "color-pallete",
+            "type": "color-palette",
             "path": "components/chartblock/color-palette/color-palette.json"
           }
         ]
@@ -40,43 +43,80 @@ VariaMetrix is a professional dashboard development, expert-driven reporting ins
 }
 ```
 
-<ul>
-    <li>name - the name of the package.</li>
-    <li>version - package version.</li>
-    <li>author - author of the package</li>
-    <li>license - license type of the package</li>
-    <li>assets - containing path of assets to add in the package. See <a href="./example/EXAMPLE.md">Example</a> </li>
-    <li>styles - An array of styles to add in varia metrix package. Package only supports plain CSS file. See <a href="./example/EXAMPLE.md">Example</a> </li>
-    <li>components - containing a list of customizable components in VariaMetrix.</li>
-</ul>
+# Assets
 
-## Assets
+The `assets` array includes search paths for all the images that will be
+used in your theme. The default directory is `asset-override/`, but
+you can create your own directories to organize assets as you see
+fit. If you use the default [CSS rules](#styles) in this repository,
+you can simply replace the image files as you see fit.
 
-Assets paths in css must be relative to your package.varia.json file and path must be prefixed with {{varia-url}}.
+VariaMetrix supports the following asset formats:
+  - .apng
+  - .bmp
+  - .gif
+  - .ico,
+  - .cur
+  - .jpg
+  - .jpeg
+  - .jfif
+  - .pjp
+  - .png
+  - .svg
+  - .tif
+  - .tiff
 
-Ex.
+
+# Styles
+
+The `styles` array contains search paths for any CSS files that will
+override the default VariaMetrix stylesheets. The default CSS file is
+`css-override/varia-default.css`, which you can modify in-place, but
+you can create your own as well.
+
+Keep in mind that the default VariaMetrix CSS file is always loaded
+first, then overridden by any stylesheets in your package. They are
+loaded in the order they're listed in the `styles` array; if you
+specified a directory, files are loaded alphabetically. Like with all
+CSS, the last-loaded rules take precedence over rules loaded earlier.
+
+If you use a different scheme for naming asset files than the
+VariaMetrix default, you will need to create CSS rules to reference
+the new filenames. Assets paths in css must be relative to your
+package.varia.json file and path must be prefixed with
+`{{varia-url}}`.
+
+## Example:
+
 ```css
 --navbar-primary-brand-background: url('{{varia-url}}assets/images/varia-logo-title.svg') center no-repeat;
 ```
 
-Assets is supported by following format : .apng, .bmp, .gif, .ico, .cur, .jpg, .jpeg, .jfif, .pjp, .png, .svg, .tif, .tiff
+# Components
 
-## Styles
+The `components` array allows you to customize chart blocks and other
+plug-in components. Currently, only the default chart colors can be
+overridden.
 
-<a href="./package/css-override/varia-default.css">varia-default.css</a> this file contains all variables we use to theme VariaMetrix. Any variable not defined in package styles will revert to the VariaMetrix default.
+## Color Palette
 
-Here's an example that changes the background color of navigation bar.
+In `package.varia.json`, define the location of your color palette JSON file.
 
-```CSS
-  --navbar-background: #5f015f;
+```JSON
+{
+  "chartblock": [
+    {
+      "type": "color-palette",
+      "path": "components/chartblock/color-palette/color-palette.json"
+    }
+  ]
+}
 ```
 
-![GitHub Logo](./how-to/NavigationBar.PNG)
-
-## Components
-
-Currently in we only support changing the color palette of chartblock.
-
+In `color-palette.json` (or other path defined in
+`package.varia.json`), create a `colorPalette` array with hex colors
+as strings. The color at index 0 will be the default color for all
+charts.
 
 ```JSON
 {
@@ -87,21 +127,15 @@ Currently in we only support changing the color palette of chartblock.
         "#CB793A",
         "#FCDC4D",
         "#1cc4ae"
-    ]   
+    ]
 }
 ```
-In code above, the first item in array gonna be the default value of chart block
 
-## Installing package in VariaMetrix
-<ol>
-    <li>Clone the package folder</li>
-    <li>Edit/Update styles and assets you want to change.</li>
-    <li>Compress the files inside package folder, ensure `package.varia.json` is there</li>
-    <li>Go to <a href="https://dashboard.variametrix.com/manage/white-label/package">Package page</a> and upload your compressed file</li>
-</ol>
+# Installation
 
-# Testing Hint
-<p>To test the styles changes you've made in realtime, In variametrix site, Inspect site elements, In inherited from html section, you'll see all CSS variable we'
-ve used in variametrix. You can alter that accordingly. </p>
+Compress your updated files into a single ZIP archive. You must
+include the `package.varia.json` file, but should omit the .git
+directory and README.md file.
 
-![GitHub Logo](./how-to/Testing.PNG)
+Sign in and upload your archive at
+[https://dashboard.variametrix.com/manage/white-label/package]
