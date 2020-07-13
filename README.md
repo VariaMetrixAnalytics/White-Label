@@ -55,7 +55,7 @@ VariaMetrix supports the following asset formats:
   - .apng
   - .bmp
   - .gif
-  - .ico,
+  - .ico
   - .cur
   - .jpg
   - .jpeg
@@ -138,4 +138,4 @@ include the `package.varia.json` file, but should omit the .git
 directory and README.md file.
 
 Sign in and upload your archive at
-[https://dashboard.variametrix.com/manage/white-label/package]
+[https://dashboard.variametrix.com/manage/white-label/package](https://dashboard.variametrix.com/manage/white-label/package)
