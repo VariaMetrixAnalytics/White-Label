@@ -71,7 +71,7 @@ Here's an example that changes the background color of navigation bar.
   --navbar-background: #5f015f;
 ```
 
-![GitHub Logo](./Images/NavigationBar.PNG)
+![GitHub Logo](./how-to/NavigationBar.PNG)
 
 ## Components
 
@@ -104,4 +104,4 @@ In code above, the first item in array gonna be the default value of chart block
 <p>To test the styles changes you've made in realtime, In variametrix site, Inspect site elements, In inherited from html section, you'll see all CSS variable we'
 ve used in variametrix. You can alter that accordingly. </p>
 
-![GitHub Logo](./Images/Testing.PNG)
+![GitHub Logo](./how-to/Testing.PNG)
