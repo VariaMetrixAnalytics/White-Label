@@ -12,7 +12,7 @@
     /*
        Set progressbar background
     */
-    --progressbar-background:  linear-gradient(to right, #0288D1, #f9f6f8, #0288D1);
+    --progressbar-background:  linear-gradient(to right, #0288D1, #4FC3F7, #0288D1);
     /*
        Set spinner background
     */
@@ -102,10 +102,10 @@
         Set context menu Colors
     */
     --context-menu-background: #ffffff;
-    --context-menu-text-color: black;
-    --context-menu-border-color: #dddddd;
+    --context-menu-text-color: #231f20;
+    --context-menu-border-color: #dbd7da;
 
-    --context-menu-item-hover-background: #29abe2;
+    --context-menu-item-hover-background: #29B6F6;
     --context-menu-item-hover-text-color: #ffffff;
 
     /* 
@@ -163,7 +163,7 @@
     /* 
         Active state 
     */
-    --button-primary-active-background: #f9f6f8;
+    --button-primary-active-background: #4FC3F7;
     --button-primary-active-text-color: #ffffff;
     --button-primary-active-border-color: #29B6F6;
     /* 
@@ -186,13 +186,13 @@
         Normal state 
     */
     --button-secondary-background: #f0eaee;
-    --button-secondary-text-color: #302b2c;
+    --button-secondary-text-color: #231f20;
     --button-secondary-border-color:transparent;
     /* 
         Hover state 
     */
     --button-secondary-hover-background: #f0eaee;
-    --button-secondary-hover-text-color: #302b2c;
+    --button-secondary-hover-text-color: #231f20;
     --button-secondary-hover-border-color: #29B6F6;
     /* 
         Active state 
@@ -204,7 +204,7 @@
         Focus state 
     */
     --button-secondary-focus-background: #f0eaee;
-    --button-secondary-focus-text-color: #302b2c;
+    --button-secondary-focus-text-color: #231f20;
     --button-secondary-focus-border-color: transparent;
     /* 
         Disabled state 
@@ -221,7 +221,7 @@
     /*
         Set delete icon properties
     */
-    --delete-icon-background-image: url('./{varia-url}asset-override/icon-delete.svg');
+    --delete-icon-background-image: url('./../assets/images/icon-delete.svg');
     --delete-icon-background-position: 0px 1px;
     --delete-icon-vertical-align: middle;
     --delete-icon-background-size: 16px 12px;
@@ -232,7 +232,7 @@
     /*
         Set edit icon properties
     */
-    --edit-icon-background-image: url('./{varia-url}asset-override/icon-edit.svg');
+    --edit-icon-background-image: url('./../assets/images/icon-edit.svg');
     --edit-icon-background-position: 0px 0px;
     --edit-icon-vertical-align: middle;
     --edit-icon-background-size: 16px 12px;
@@ -250,7 +250,7 @@
     /* 
         Normal state arrow icons 
     */
-    --select-arrow-icon-background-image: url('{varia-url}asset-override/varia-select-sprite.svg');
+    --select-arrow-icon-background-image: url('../assets/images/varia-select-sprite.svg');
     --select-arrow-icon-background-position: -29px 4px;
     --select-arrow-icon-background-size: auto;
         
@@ -264,7 +264,7 @@
     /* 
         Hover state arrow icons 
     */
-    --select-arrow-icon-hover-background-image: url('{varia-url}asset-override/varia-select-sprite.svg');
+    --select-arrow-icon-hover-background-image: url('../assets/images/varia-select-sprite.svg');
     --select-arrow-icon-hover-bbackground-size: auto;
     --select-arrow-icon-hover-background-position: -29px 28px;
     
@@ -278,10 +278,25 @@
     /* 
         Disabled state arrow icons 
     */
-    --select-arrow-icon-disabled-background-image: url('{varia-url}asset-override/varia-select-sprite.svg');
+    --select-arrow-icon-disabled-background-image: url('../assets/images/varia-select-sprite.svg');
     --select-arrow-icon-disabled-background-size: auto;
     --select-arrow-icon-disabled-background-position: -29px 4px;
 
+    
+    
+
+    /* 
+        Set chart block popup menu colors
+    */
+    --popup-menu-background: #ffffff;
+    --popup-menu-text-color: black;
+    --popup-menu-border-color: #dbd7da;
+
+    --popup-menu-item-background: #f9f6f8;
+    --popup-menu-item-text-color: black;
+
+    --popup-menu-item-hover-background: #29B6F6;
+    --popup-menu-item-hover-text-color: #ffffff;
 
     /*
         Select Popup menu - Appears when a user click a select element 
@@ -319,19 +334,19 @@
     /*
         Normal state 
     */
-    --select-popup-scroll-up-icon-background-image: url('{varia-url}asset-override/varia-select-scroll-sprite.svg');
+    --select-popup-scroll-up-icon-background-image: url('../assets/images/varia-select-scroll-sprite.svg');
     --select-popup-scroll-up-icon-background-position: -6px 0px;
 
-    --select-popup-scroll-down-icon-background-image: url('{varia-url}asset-override/varia-select-scroll-sprite.svg');
+    --select-popup-scroll-down-icon-background-image: url('../assets/images/varia-select-scroll-sprite.svg');
     --select-popup-scroll-down-icon-background-position: -6px -22px;
     
     /*
         Hover state 
     */
-    --select-popup-scroll-up-icon-hover-background-image: url('{varia-url}asset-override/varia-select-scroll-sprite.svg');
+    --select-popup-scroll-up-icon-hover-background-image: url('../assets/images/varia-select-scroll-sprite.svg');
     --select-popup-scroll-up-icon-hover-background-position: -27px 0px;
 
-    --select-popup-scroll-down-icon-hover-background-image: url('{varia-url}asset-override/varia-select-scroll-sprite.svg');
+    --select-popup-scroll-down-icon-hover-background-image: url('../assets/images/varia-select-scroll-sprite.svg');
     --select-popup-scroll-down-icon-hover-background-position: -27px -22px;
 
 
@@ -354,8 +369,57 @@
     */
     --modal-background-color: #ffffff;
     --modal-text-color: black;
-    --modal-border-color: #e9ecef;
+    --modal-border-color: #f0eaee;
+    
+    /*
+       Set modal form label color
+    */
+    --modal-form-label-text-color:black;
+    
+    /*
+       Set modal form input colors
+    */
+    /*
+       Normal state
+    */
+    --modal-form-input-background: #f0eaee;
+    --modal-form-input-text-color: #231f20;
+    --modal-form-input-border-color: transparent;
+    --modal-form-input-placeholder-text-color: #231f20;
+    
+    /*
+       Hover state
+    */
+    --modal-form-input-hover-background: #f9f6f8;
+    --modal-form-input-hover-text-color: #302b2c;
+    --modal-form-input-hover-placeholder-text-color: #231f20;
 
+    
+    /*
+       Active state
+    */
+    --modal-form-input-active-background: #ffffff;
+    --modal-form-input-active-text-color: #231f20;
+    --modal-form-input-active-border-color:#29B6F6;
+    --modal-form-input-active-placeholder-text-color: #231f20;
+    
+    /*
+       Focus state
+    */
+    --modal-form-input-focus-background: #ffffff;
+    --modal-form-input-focus-text-color: #231f20;
+    --modal-form-input-focus-border-color:#29B6F6;
+    --modal-form-input-focus-placeholder-text-color: #231f20;
+    
+    /*
+       Disabled state
+    */
+    --modal-form-input-disabled-background: #f9f6f8;
+    --modal-form-input-disabled-text-color: #c4bec1;
+    --modal-form-input-disabled-placeholder-text-color: #231f20;
+    /* 
+        END MODAL 
+    */
 
     /* 
         Popover menu  
@@ -366,10 +430,16 @@
     --popover-menu-background: #231f20;
     --popover-menu-text-color: #ffffff;
 
-
     /* 
         Navigation bar 
     */
+
+    /* 
+        Set avatar colors
+    */
+
+    --navbar-avatar-background: #c4bec1;
+    --navbar-avatar-text-color: black;
 
     /*
         Set navigation bar colors
@@ -378,7 +448,7 @@
     /*
         Set navbar-brand background size width and height
     */
-    --navbar-primary-brand-background: url('{varia-url}asset-override/varia-logo-title.svg') center no-repeat;
+    --navbar-primary-brand-background: url('../assets/images/varia-logo-title.svg') center no-repeat;
     /*
         Set navbar-brand background size width and height
     */
@@ -397,7 +467,7 @@
     /*
         Normal state
     */
-    --navbar-burger-menu-background: url('{varia-url}asset-override/dashboard-menu.svg') no-repeat;
+    --navbar-burger-menu-background: url('../assets/images/dashboard-menu.svg') no-repeat;
     --navbar-burger-menu-background-position: left 0;
     
     /*
@@ -485,10 +555,60 @@
     /*
         Set Export PPT image
     */
-    --navbar-menu-item-export-ppt-icon-background-image: url('{varia-url}asset-override/export-ppt.svg');
+    --navbar-menu-item-export-ppt-icon-background-image: url('../assets/images/export-ppt.svg');
     --navbar-menu-item-export-ppt-icon-background-size: 48px;
     --navbar-menu-item-export-ppt-icon-background-position: left 0;
 
+    /* 
+        Navigation bar input control
+    */
+    --nav-input-label-text-color: #c4bec1;
+
+    --nav-input-border-color: transparent;
+    --nav-input-border-bottom-width: 0px;
+
+    --nav-input-background: #302b2c;
+    --nav-input-text-color: #f0eaee;
+    --nav-input-placeholder-text-color: #c4bec1;
+
+    --nav-input-background-disabled: #1f1b1c;
+    --nav-input-text-color-disabled: #474545;
+
+    --nav-input-background-hover: #363132;
+    --nav-input-text-color-hover: #f0eaee;
+
+    --nav-input-background-active: #ffffff;
+    --nav-input-text-color-active: black;
+    --nav-input-border-color-active: transparent;
+
+    --nav-input-background-focus: #ffffff;
+    --nav-input-text-color-focus: black;
+    --nav-input-border-color-focus: transparent;
+
+    /* 
+    
+        Navigation bar button
+    */
+
+    --nav-button-background: #302b2c;
+    --nav-button-text-color: #f0eaee;
+    --nav-button-border-color: #29B6F6;
+
+    --nav-button-disabled-background: #231f20;
+    --nav-button-disabled-text-color: #474545;
+    --nav-button-disabled-border-color: #302b2c;
+
+    --nav-button-hover-background: #363132;
+    --nav-button-hover-text-color: #ffffff;
+    --nav-button-hover-border-color: #29B6F6;
+
+    --nav-button-focus-background: #302b2c;
+    --nav-button-focus-text-color: #f0eaee;
+    --nav-button-focus-border-color: #29B6F6;
+
+    --nav-button-active-background: #4FC3F7;
+    --nav-button-active-text-color: #ffffff;
+    --nav-button-active-border-color: #ffffff;
 
     /* 
         Sub Navigation bar - Sub navigation bar in settings page
@@ -515,68 +635,68 @@
     /*
         Set add new user background icon and background position
     */
-    --sub-navbar-add-new-user-icon-background-image: url('{varia-url}asset-override/management-menu-button.svg');
+    --sub-navbar-add-new-user-icon-background-image: url('../assets/images/management-menu-button.svg');
     --sub-navbar-add-new-user-icon-background-position: -336px 0px;
     
     /*
         Set add new role background icon and background position
     */
-    --sub-navbar-add-new-role-icon-background-image: url('{varia-url}asset-override/management-menu-button.svg');
+    --sub-navbar-add-new-role-icon-background-image: url('../assets/images/management-menu-button.svg');
     --sub-navbar-add-new-role-icon-background-position: -336px 0px;
     /*
         Set add new policy background icon and background position
     */
-    --sub-navbar-add-new-policy-icon-background-image: url('{varia-url}asset-override/management-menu-button.svg');
+    --sub-navbar-add-new-policy-icon-background-image: url('../assets/images/management-menu-button.svg');
     --sub-navbar-add-new-policy-icon-background-position: -336px 0px;
     /*
         Set add new tag background icon and background position
     */
-    --sub-navbar-add-new-tag-icon-background-image: url('{varia-url}asset-override/management-menu-button.svg');
+    --sub-navbar-add-new-tag-icon-background-image: url('../assets/images/management-menu-button.svg');
     --sub-navbar-add-new-tag-icon-background-position: -336px 0px;
     /*
         Set change password background icon and background position
     */
-    --sub-navbar-change-password-icon-background-image: url('{varia-url}asset-override/management-menu-button.svg');
+    --sub-navbar-change-password-icon-background-image: url('../assets/images/management-menu-button.svg');
     --sub-navbar-change-password-icon-background-position: -624px 0px;
     /*
         Set change email background icon and background position
     */
-    --sub-navbar-change-email-icon-background-image: url('{varia-url}asset-override/management-menu-button.svg');
+    --sub-navbar-change-email-icon-background-image: url('../assets/images/management-menu-button.svg');
     --sub-navbar-change-email-icon-background-position: -624px 0px;
     /*
         Set create dashboard background icon and background position
     */
-    --sub-navbar-create-dashboard-icon-background-image: url('{varia-url}asset-override/management-menu-button.svg');
+    --sub-navbar-create-dashboard-icon-background-image: url('../assets/images/management-menu-button.svg');
     --sub-navbar-create-dashboard-icon-background-position: -336px 0px;
     /*
         Set create new goal background icon and background position
     */
-    --sub-navbar-create-new-goal-icon-background-image: url('{varia-url}asset-override/management-menu-button.svg');
+    --sub-navbar-create-new-goal-icon-background-image: url('../assets/images/management-menu-button.svg');
     --sub-navbar-create-new-goal-icon-background-position: -336px 0px;
     /*
         Set delete goal background icon and background position
     */
-    --sub-navbar-delete-goal-icon-background-image: url('{varia-url}asset-override/management-menu-button.svg');
+    --sub-navbar-delete-goal-icon-background-image: url('../assets/images/management-menu-button.svg');
     --sub-navbar-delete-goal-icon-background-position: -384px 0px;
     /*
         Set add connector background icon and position
     */
-    --sub-navbar-add-connector-icon-background-image: url('{varia-url}asset-override/management-menu-button.svg');
+    --sub-navbar-add-connector-icon-background-image: url('../assets/images/management-menu-button.svg');
     --sub-navbar-add-connector-icon-background-position: -336px 0px;
     /*
         Set add  youtube channel background icon and position
     */
-    --sub-navbar-add-youtube-channel-icon-background-image: url('{varia-url}asset-override/management-menu-button.svg');
+    --sub-navbar-add-youtube-channel-icon-background-image: url('../assets/images/management-menu-button.svg');
     --sub-navbar-add-youtube-channel-icon-background-position: -336px 0px;
     /*
         Set add site url background icon and position
     */
-    --sub-navbar-add-site-url-icon-background-image: url('{varia-url}asset-override/management-menu-button.svg');
+    --sub-navbar-add-site-url-icon-background-image: url('../assets/images/management-menu-button.svg');
     --sub-navbar-add-site-url-icon-background-position: -336px 0px;
     /*
         Set add new payment method background icon and position
     */
-    --sub-navbar-add-new-payment-method-icon-background-image: url('{varia-url}asset-override/management-menu-button.svg');
+    --sub-navbar-add-new-payment-method-icon-background-image: url('../assets/images/management-menu-button.svg');
     --sub-navbar-add-new-payment-method-icon-background-position: -336px 0px;
 
 
@@ -641,7 +761,6 @@
     --tag-button-control-border-color: #dbd7da;
 
 
-
     /* Sidebar  */
     
     /* Base style - Base styles of sidebar */
@@ -669,23 +788,23 @@
     /*
         Normal state
     */
-    --sidebar-primary-tab-dashboard-icon-background-image: url('{varia-url}asset-override/panel-tab--dashboards.svg');
+    --sidebar-primary-tab-dashboard-icon-background-image: url('../assets/images/panel-tab--dashboards.svg');
     --sidebar-primary-tab-dashboard-icon-background-position: 0 -128px;
     /*
         Hover state
     */
-    --sidebar-primary-tab-dashboard-icon-hover-background-image: url('{varia-url}asset-override/panel-tab--dashboards.svg');
+    --sidebar-primary-tab-dashboard-icon-hover-background-image: url('../assets/images/panel-tab--dashboards.svg');
     --sidebar-primary-tab-dashboard-icon-hover-background-position: 0 -64px;
     /*
         Active state
     */
-    --sidebar-primary-tab-active-dashboard-icon-background-image: url('{varia-url}asset-override/panel-tab--dashboards.svg');
+    --sidebar-primary-tab-active-dashboard-icon-background-image: url('../assets/images/panel-tab--dashboards.svg');
     --sidebar-primary-tab-active-dashboard-icon-background-position: 0 -32px;
     
     /*
         Active & Hover state
     */
-    --sidebar-primary-tab-active-dashboard-icon-hover-background-image: url('{varia-url}asset-override/panel-tab--dashboards.svg');
+    --sidebar-primary-tab-active-dashboard-icon-hover-background-image: url('../assets/images/panel-tab--dashboards.svg');
     --sidebar-primary-tab-active-dashboard-icon-hover-background-position: 0 -32px;
     
     /*
@@ -694,22 +813,22 @@
     /*
         Normal state
     */
-    --sidebar-primary-tab-blocks-icon-background-image: url('{varia-url}asset-override/panel-tab--blocks.svg');
+    --sidebar-primary-tab-blocks-icon-background-image: url('../assets/images/panel-tab--blocks.svg');
     --sidebar-primary-tab-blocks-icon-background-position: 0 -128px;
     /*
         Hover state
     */
-    --sidebar-primary-tab-blocks-icon-hover-background-image: url('{varia-url}asset-override/panel-tab--blocks.svg');
+    --sidebar-primary-tab-blocks-icon-hover-background-image: url('../assets/images/panel-tab--blocks.svg');
     --sidebar-primary-tab-blocks-icon-hover-background-position: 0 -64px;
     /*
         Active state
     */
-    --sidebar-primary-tab-active-blocks-icon-background-image: url('{varia-url}asset-override/panel-tab--blocks.svg');
+    --sidebar-primary-tab-active-blocks-icon-background-image: url('../assets/images/panel-tab--blocks.svg');
     --sidebar-primary-tab-active-blocks-icon-background-position: 0 -32px;
     /*
         Active & Hover state
     */
-    --sidebar-primary-tab-active-blocks-icon-hover-background-image: url('{varia-url}asset-override/panel-tab--dashboards.svg');
+    --sidebar-primary-tab-active-blocks-icon-hover-background-image: url('../assets/images/panel-tab--dashboards.svg');
     --sidebar-primary-tab-active-blocks-icon-hover-background-position: 0 -32px;
     
     /*
@@ -718,78 +837,154 @@
     /*
         Normal state
     */
-    --sidebar-primary-tab-filters-icon-background-image: url('{varia-url}asset-override/panel-tab--filters.svg');
+    --sidebar-primary-tab-filters-icon-background-image: url('../assets/images/panel-tab--filters.svg');
     --sidebar-primary-tab-filters-icon-background-position: 0 -128px;
     /*
         Hover state
     */
-    --sidebar-primary-tab-filters-icon-hover-background-image: url('{varia-url}asset-override/panel-tab--filters.svg');
+    --sidebar-primary-tab-filters-icon-hover-background-image: url('../assets/images/panel-tab--filters.svg');
     --sidebar-primary-tab-filters-icon-hover-background-position: 0 -64px;
     /*
         Active state
     */
-    --sidebar-primary-tab-active-filters-icon-background-image: url('{varia-url}asset-override/panel-tab--filters.svg');
+    --sidebar-primary-tab-active-filters-icon-background-image: url('../assets/images/panel-tab--filters.svg');
     --sidebar-primary-tab-active-filters-icon-background-position: 0 -32px;
     /*
         Active & Hover state
     */
-    --sidebar-primary-tab-active-filters-icon-hover-background-image: url('{varia-url}asset-override/panel-tab--filters.svg');
+    --sidebar-primary-tab-active-filters-icon-hover-background-image: url('../assets/images/panel-tab--filters.svg');
     --sidebar-primary-tab-active-filters-icon-hover-background-position: 0 -32px;
     
+    /* 
+        Set sidebar accordion head colors
+    */
+
+    --sidebar-accordion-head-collapse-backgound: transparent;
+    --sidebar-accordion-head-collapse-hover-backgound: #e6e0e3;
+
+    --sidebar-accordion-head-expand-backgound: transparent;
+    --sidebar-accordion-head-expand-hover-backgound: #e6e0e3;
     
+    /* 
+        Set sidebar expand and collapse icon
+    */
+
+    /*     
+        Normal state
+    */
+    --sidebar-collapse-icon-background-image: url('../assets/images/tiny-icons--caret-expand.svg');
+    --sidebar-expand-icon-background-image: url('../assets/images/tiny-icons--caret-expand.svg');
+
+    --sidebar-collapse-icon-background-position: left 49px;
+    --sidebar-expand-icon-background-position: left 0px;
+
+    --sidebar-collapse-icon-background-size: 24px;
+    --sidebar-expand-icon-background-size: 24px;
+
+    /* 
+        Hover state
+    */
+    --sidebar-collapse-hover-icon-background-image: url('../assets/images/tiny-icons--caret-expand.svg');
+    --sidebar-expand-hover-icon-background-image: url('../assets/images/tiny-icons--caret-expand.svg');
+
+    --sidebar-collapse-hover-icon-background-position: left 49px;
+    --sidebar-expand-hover-icon-background-position: left 0px;
+
+
+    /* 
+        Set dashboard icon
+    */
+    --sidebar-dashboard-edit-icon-background-image: url('../assets/images/tiny-icon--rename.svg');
+    --sidebar-dashboard-delete-icon-background-image: url('../assets/images/tiny-icon--delete.svg');
+    --sidebar-dashboard-apply-rename-icon-background-image: url('../assets/images/tiny-icon--rename.svg');
+    --sidebar-add-dashboard-icon-background-image: url('../assets/images/tiny-icons--new-dashboard.svg');
+    --sidebar-save-snapshot-icon-background-image: url('../assets/images/tiny-icons--snapshot.svg');
+
+    /* 
+        Set dashboard background size
+    */
+    --sidebar-dashboard-edit-icon-background-size: 24px;
+    --sidebar-dashboard-delete-icon-background-size: 24px;
+    --sidebar-dashboard-apply-rename-icon-background-size: 24px;
+    --sidebar-add-dashboard-icon-background-size: 24px;
+    --sidebar-save-snapshot-icon-background-size: 24px;
+
+    /* 
+        Set dashboard background position
+    */
+    
+    /* 
+        Normal state
+    */
+    --sidebar-dashboard-edit-icon-background-position: left -96px;
+    --sidebar-dashboard-delete-icon-background-position: left -96px;
+    --sidebar-dashboard-apply-rename-icon-background-position: left -96px;
+    --sidebar-add-dashboard-icon-background-position: left -1px;
+    --sidebar-save-snapshot-icon-background-position: left -1px;
+
+    /* 
+        Active state
+    */
+    --sidebar-dashboard-active-delete-icon-background-position: left 0px;
+    --sidebar-dashboard-active-delete-icon-background-position: left 0px;
+    --sidebar-dashboard-active-apply-rename-icon-background-position: left 0px;
+    --sidebar-add-dashboard-active-icon-background-position: left -25px;
+    --sidebar-save-snapshot-active-icon-background-position: left -25px;
+
+    /* 
+        Hover state
+    */
+    --sidebar-dashboard-hover-edit-icon-background-position: left -48px;
+    --sidebar-dashboard-hover-delete-icon-background-position: left -48px;
+    --sidebar-dashboard-hover-apply-rename-icon-background-position: left -48px;
+    --sidebar-add-dashboard-hover-icon-background-position: left -25px;
+    --sidebar-save-snapshot-hover-icon-background-position: left -25px;
+
+    /* 
+        Disabled state
+    */
+    --sidebar-dashboard-disabled-edit-icon-background-position: left -72px;
+    --sidebar-dashboard-disabled-delete-icon-background-position: left -72px;
+    --sidebar-dashboard-disabled-apply-rename-icon-background-position: left -72px;
+    --sidebar-add-dashboard-disabled-icon-background-position: left -49px;
+    --sidebar-save-snapshot-disabled-icon-background-position: left -49px;
+
     /*
         Set settings tab icon 
     */
     /*
         Normal state
     */
-    --sidebar-primary-tab-settings-icon-background-image: url('{varia-url}asset-override/panel-tab--settings.svg');
+    --sidebar-primary-tab-settings-icon-background-image: url('../assets/images/panel-tab--settings.svg');
     --sidebar-primary-tab-settings-icon-background-position: 0 -128px;
     
     /*
         Hover state
     */
-    --sidebar-primary-tab-settings-icon-hover-background-image: url('{varia-url}asset-override/panel-tab--settings.svg');
+    --sidebar-primary-tab-settings-icon-hover-background-image: url('../assets/images/panel-tab--settings.svg');
     --sidebar-primary-tab-settings-icon-hover-background-position: 0 -64px;
         
     /*
         Active state
     */
-    --sidebar-primary-tab-active-settings-icon-background-image: url('{varia-url}asset-override/panel-tab--settings.svg');
+    --sidebar-primary-tab-active-settings-icon-background-image: url('../assets/images/panel-tab--settings.svg');
     --sidebar-primary-tab-active-settings-icon-background-position: 0 -32px;
         
     /*
         Active & Hover state
     */
-    --sidebar-primary-tab-active-settings-icon-hover-background-image: url('{varia-url}asset-override/panel-tab--settings.svg');
+    --sidebar-primary-tab-active-settings-icon-hover-background-image: url('../assets/images/panel-tab--settings.svg');
     --sidebar-primary-tab-active-settings-icon-hover-background-position: 0 -32px;
-
-
-    /* Sidebar action links - Used in primary sidebar as save dashboard and save snapshot menu item */
-    /*
-       Set Action link colors
-    */
-    /*
-       Normal state
-    */
-    --sidebar-action-link-text-color: #03A9F4;
-    --sidebar-action-link-background: #f0eaee;
-    /*
-       Hover state
-    */
-    --sidebar-action-link-hover-text-color: #03A9F4;
-    --sidebar-action-link-hover-background:#dbd7da;
     
-    /*
-       Disabled state
-    */
-    --sidebar-action-link-disabled-text-color:#c4bec1;
-    --sidebar-action-link-disabled-background:transparent;
-
-
     /* 
         Sidebar menu item 
     */
+    /* 
+        Active & Inactive color
+    */
+    --sidebar-inactive-menu-item-color: #c4bec1;
+    --sidebar-active-menu-item-color: #03A9F4;
+
     /*
        Set sidebar menu item colors
     */
@@ -797,21 +992,42 @@
        Normal state
     */
     --sidebar-menu-item-text-color:#231f20;
+    --sidebar-menu-item-accent-text-color:#9c979a;
     --sidebar-menu-item-background:#f0eaee;
     --sidebar-menu-item-font-weight: normal;
     /*
        Hover state
     */
     --sidebar-menu-item-hover-text-color:#231f20;
+    --sidebar-menu-item-hover-accent-text-color:#9c979a;
     --sidebar-menu-item-hover-background:#dbd7da;
     --sidebar-menu-item-hover-font-weight: normal;
     /*
        Active state
     */
-    --sidebar-menu-item-active-background:#dbd7da;
-    --sidebar-menu-item-active-text-color:#231f20;
-    --sidebar-menu-item-active-font-weight: bold;
+    --sidebar-active-menu-item-background:transparent;
+    --sidebar-active-menu-item-text-color:#231f20;
+    --sidebar-active-menu-item-accent-text-color:#9c979a;
+    --sidebar-active-menu-item-font-weight: normal;
 
+    --sidebar-active-menu-item-hover-text-color: #231f20;
+    --sidebar-active-menu-item-hover-background: #dbd7da;
+    --sidebar-active-menu-item-accent-text-color:#9c979a;
+    --sidebar-active-menu-item-hover-font-weight: normal;
+
+    /* 
+        Set colors sidebar content editable
+    */
+    --sidebar-content-editable-border-color: #dbd7da;
+    --sidebar-content-editable-background: #f9f6f8;
+    --sidebar-content-editable-text-color: black;
+
+    /* 
+        Set sidebar search input
+    */
+    --sidebar-search-input-background: #f9f6f8;
+    --sidebar-search-input-border-color: #dbd7da;
+    --sidebar-search-input-text-color: black;
 
     /*
        Set sidebar form label color
@@ -827,38 +1043,38 @@
     --side-bar-form-input-background: #f0eaee;
     --side-bar-form-input-text-color: #231f20;
     --side-bar-form-input-border-color: transparent;
-    --side-bar-form-input-placeholder-text-color: #231f20;
+    --side-bar-form-input-placeholder-text-color: #9c979a;
     
     /*
        Hover state
     */
     --side-bar-form-input-hover-background: #f9f6f8;
-    --side-bar-form-input-hover-text-color: #302b2c;
-    --side-bar-form-input-hover-placeholder-text-color: #231f20;
+    --side-bar-form-input-hover-text-color: black;
+    --side-bar-form-input-hover-placeholder-text-color: #9c979a;
 
     
     /*
        Active state
     */
     --side-bar-form-input-active-background: #ffffff;
-    --side-bar-form-input-active-text-color: #231f20;
+    --side-bar-form-input-active-text-color: black;
     --side-bar-form-input-active-border-color:#29B6F6;
-    --side-bar-form-input-active-placeholder-text-color: #231f20;
+    --side-bar-form-input-active-placeholder-text-color: #c4bec1;
     
     /*
        Focus state
     */
     --side-bar-form-input-focus-background: #ffffff;
-    --side-bar-form-input-focus-text-color: #231f20;
+    --side-bar-form-input-focus-text-color: black;
     --side-bar-form-input-focus-border-color:#29B6F6;
-    --side-bar-form-input-focus-placeholder-text-color: #231f20;
+    --side-bar-form-input-focus-placeholder-text-color: #c4bec1;
     
     /*
        Disabled state
     */
     --side-bar-form-input-disabled-background: #f9f6f8;
     --side-bar-form-input-disabled-text-color: #c4bec1;
-    --side-bar-form-input-disabled-placeholder-text-color: #231f20;
+    --side-bar-form-input-disabled-placeholder-text-color: #9c979a;
 
 
     /* 
@@ -871,7 +1087,16 @@
     --setings-page-secondary-text-color: #9c979a;
 
     /* 
-        Sub sidebar - Used in goals page, web analytics page and web master page</b>  
+        Right sidebar
+    */
+
+    /*
+       Set right side bar color
+    */
+    --settings-right-sidebar-background: #f9f6f8;
+
+    /* 
+        Sub sidebar - Used in goals page, web analytics page and web master page
     */
     /*
        Set sub sidebar border and color
@@ -883,7 +1108,7 @@
        Normal state
     */
     --settings-sub-sidebar-item-background: transparent;
-    --settings-sub-sidebar-item-text-color: black;
+    --settings-sub-sidebar-item-text-color:#231f20;
     
     /*
         Hover state
@@ -897,7 +1122,6 @@
     --settings-sub-sidebar-item-active-color: #29B6F6;
     --settings-sub-sidebar-item-active-background: transparent;
 
-
     /* 
         Content editable title - Used in personal settings page as input to edit user name 
     */
@@ -909,13 +1133,13 @@
     */
     --settings-page-content-editable-title-background: transparent;
     --settings-page-content-editable-title-text-color: black;
-    --settings-page-content-editable-title-border-color: #f0eaee;
+    --settings-page-content-editable-title-border-color: #9c979a;
     /*
       Hover State
     */
     --settings-page-content-editable-title-hover-background: transparent;
     --settings-page-content-editable-title-hover-text-color: black;
-    --settings-page-content-editable-title-hover-border-color: #f0eaee;
+    --settings-page-content-editable-title-hover-border-color: #9c979a;
     /*
       Focus State
     */
@@ -937,32 +1161,37 @@
       Normal state
     */
     --settings-page-input-background: #f9f6f8;
+    --settings-page-input-border-color: #f0eaee;
     --settings-page-input-text-color: black;
-    --settings-page-placeholder-text-color: #a9a9a9;
+    --settings-page-placeholder-text-color: #9c979a;
     /*
       Disabled state
     */
     --settings-page-input-disabled-background: #f0eaee;
+    --settings-page-input-disabled-border-color: #f0eaee;
     --settings-page-input-disabled-text-color: #9c979a;
     --settings-page-placeholder-disabled-text-color: #a9a9a9;
     /*
       Hover state
     */
     --settings-page-input-hover-background: #f9f6f8;
+    --settings-page-input-hover-border-color: #f0eaee;
     --settings-page-input-hover-text-color: black;
-    --settings-page-placeholder-hover-text-color: #a9a9a9;
+    --settings-page-placeholder-hover-text-color: #9c979a;
     /*
       Active state
     */
     --settings-page-input-active-background: #F0F4F8;
+    --settings-page-input-active-border-color: #f0eaee;
     --settings-page-input-active-text-color: #222222;
-    --settings-page-placeholder-active-text-color: #a9a9a9;
+    --settings-page-placeholder-active-text-color:  #9c979a;
     /*
       Focus state
     */
     --settings-page-input-focus-background: #f9f6f8;
+    --settings-page-input-focus-border-color: #f0eaee;
     --settings-page-input-focus-text-color: black;
-    --settings-page-placeholder-focus-text-color: #a9a9a9;
+    --settings-page-placeholder-focus-text-color: #9c979a;
 
     /* 
         Tables 
@@ -990,7 +1219,7 @@
     */
     --collapsible-panel-title-background: #363132;
     --collapsible-panel-title-text-color: #ffffff;
-    --collapsible-panel-arrow-background: #363132;
+    --collapsible-panel-arrow-background: #ffffff;
     /*
         Hover state
     */
@@ -1009,7 +1238,7 @@
     /*
         Set collapsible panel button color
     */
-    --collapsible-panel-button-text-color: black;
+    --collapsible-panel-button-text-color: #212529;
     --collapsible-panel-button-background-color: #ffffff;
     --collapsible-panel-button-border-color: #dbd7da;
 
@@ -1033,15 +1262,14 @@
     /* 
         Active state
     */
-    --wizard-item-active-background: #f9f6f8;
+    --wizard-item-active-background: #4FC3F7;
     --wizard-active-active-item-text-color: #ffffff;
     /* 
         Disabled state
     */
     --wizard-item-disabled-background: #ffffff;
-    --wizard-item-disabled-text-color: #f9f6f8;
-
-
+    --wizard-item-disabled-text-color: #4FC3F7;
+    
     /* List group */
     /* 
       Set list group select background 
@@ -1054,7 +1282,7 @@
     /* 
         Normal State
     */
-    --list-group-select-item-background: #f0eaee;
+    --list-group-select-item-background: #ffffff;
     --list-group-select-title-text-color: inherit;
     --list-group-select-sub-title-text-color: #c4bec1;
     
@@ -1062,15 +1290,17 @@
         Hover State
     */
     --list-group-select-item-hover-background: #f0eaee;
-    --list-group-select-title-hover-text-color: #ffffff;
-    --list-group-select-sub-title-hover-text-color: #ffffff;
+    --list-group-select-title-hover-text-color: black;
+    
+    --list-group-select-sub-title-hover-text-color: #c4bec1;    
+
     --list-group-select-parent-item-title-hover-text-color: black;
     --list-group-select-parent-item-sub-title-hover-text-color: black;
     
     /* 
         Active State
     */
-    --list-group-select-item-active-background: #f9f6f8;
+    --list-group-select-item-active-background: #4FC3F7;
     --list-group-select-title-active-text-color: #ffffff;
     --list-group-select-sub-title-active-text-color: #ffffff;
     --list-group-select-parent-item-active-background: #42c6ff73;
@@ -1087,14 +1317,14 @@
     */
     --subcription-card-background: #f9f6f8;
     --subcription-card-pricing-text-color: black;
-    --subcription-card-description-text-color: #474545;
+    --subcription-card-description-text-color: #231f20;
 
     /* 
         Active State 
     */
     --subcription-card-active-background: #f0eaee;
     --subcription-card-active-price-text-color: black;
-    --subcription-card-active-description-text-color: #474545;
+    --subcription-card-active-description-text-color: #231f20;
     
     
     /*
@@ -1199,12 +1429,15 @@
     */
     /*
         Set chartblock proggress bar color
+        --chart-block-progress-bacground: #29B6F6; 
     */
-    --chart-block-progress-bacground: #29B6F6; 
+
+    --chart-block-box-shadow: 0 4px 18px 0 #42c7ff14, 0 3px 10px 0 #1f85af1a, 0 2px 5px 0 #0a323c26;
     
     /*
         Set chartblock resize border color
     */
+
     --chart-block-resize-border-color: #29B6F6;
     --chart-block-resize-border-opacity: 0.4;
     
@@ -1216,12 +1449,12 @@
     /*
         Set chart block merging highlight style
     */
-    --chart-block-merge-hightlight-bow-shadow: 0px 0px 5px 2px #42c7ff;
+    --chart-block-merge-hightlight-bow-shadow: 0px 0px 5px 2px #4FC3F7;
     
     /*
         Set chart block title text font and color
     */
-    --chart-block-title-font-weight: bold;
+    --chart-block-title-font-weight: 500;
     --chart-block-title-text-color: black;
 
     /*
@@ -1230,6 +1463,214 @@
     --chart-block-body-background: #ffffff;
     --chart-block-head-background: linear-gradient(to bottom, #ffffff 20%, rgba(255, 255, 255, 0.8) 75%, rgba(255, 255, 255, 0) 100%);
 
+    /* 
+        Chart block icons
+    */
+    /* 
+        Settings menu
+    */
+
+    /* 
+        Normal 
+    */
+    --chart-block-settings-icon-background-image: url('./../assets/images/chartcontrol--config--normal.svg');
+    --chart-block-settings-icon-background-color: none;
+    --chart-block-settings-icon-background-position: 0px 0px;
+    --chart-block-settings-icon-background-size: 40px;
+
+    /* 
+        Hover 
+    */
+    --chart-block-settings-hover-icon-background-image: url('./../assets/images/chartcontrol--config--normal.svg');
+    --chart-block-settings-hover-icon-background-color: none;
+    --chart-block-settings-hover-icon-background-position: 0px -24px;
+    --chart-block-settings-hover-icon-background-size: 40px;
+
+    /* 
+        Focus
+    */
+    --chart-block-settings-focus-icon-background-image: url('./../assets/images/chartcontrol--config--normal.svg');
+    --chart-block-settings-focus-icon-background-color: none;
+    --chart-block-settings-focus-icon-background-position: 0px -24px;
+    --chart-block-settings-focus-icon-background-size: 40px;
+
+
+    /* 
+        Active 
+    */
+    --chart-block-active-settings-icon-background-image: url('./../assets/images/chartcontrol--config--normal.svg');
+    --chart-block-active-settings-icon-background-color: none;
+    --chart-block-active-settings-icon-background-position: 0px -96px;
+    --chart-block-active-settings-icon-background-size: 40px;
+
+    /* 
+        Active icon and hover state
+    */
+    --chart-block-active-settings-hover-icon-background-image: url('./../assets/images/chartcontrol--config--normal.svg');
+    --chart-block-active-settings-hover-icon-background-color: none;
+    --chart-block-active-settings-hover-icon-background-position: 0px -96px;
+    --chart-block-active-settings-hover-icon-background-size: 40px;
+
+    
+    /* 
+        Related chart icon
+    */
+
+    /* 
+        Normal
+    */
+    --chart-block-related-chart-icon-background-image: url('./../assets/images/chartcontrol--alt-charts--normal.svg');
+    --chart-block-related-chart-icon-background-size: 40px;
+    --chart-block-related-chart-icon-background-position: 0px 0px;
+    --chart-block-related-chart-icon-background-color: none;
+
+    /*
+        Hover
+    */
+    --chart-block-related-chart-hover-icon-background-image: url('./../assets/images/chartcontrol--alt-charts--normal.svg');
+    --chart-block-related-chart-hover-icon-background-size: 40px;
+    --chart-block-related-chart-hover-icon-background-position: 0px -24px;
+    --chart-block-related-chart-hover-icon-background-color: none;
+
+    /*
+        Focus
+    */
+    --chart-block-related-chart-focus-icon-background-image: url('./../assets/images/chartcontrol--alt-charts--normal.svg');
+    --chart-block-related-chart-focus-icon-background-size: 40px;
+    --chart-block-related-chart-focus-icon-background-position: 0px -24px;
+    --chart-block-related-chart-focus-icon-background-color: none;
+
+    /* 
+        Disabled
+    */
+    --chart-block-related-chart-disabled-icon-background-image: url('./../assets/images/chartcontrol--alt-charts--normal.svg');
+    --chart-block-related-chart-disabled-icon-background-size: 40px;
+    --chart-block-related-chart-disabled-icon-background-position: 0px -48px;
+    --chart-block-related-chart-disabled-icon-background-color: none;
+    
+    /*
+        Export icon
+    */
+    /* 
+        Normal
+    */
+    --chart-block-export-chart-icon-background-image: url('./../assets/images/chartcontrol--export--normal.svg');
+    --chart-block-export-chart-icon-background-size: 40px;
+    --chart-block-export-chart-background-position: 0px 0px;
+    --chart-block-export-chart-icon-background-color: none;
+
+    /*
+        Hover
+    */
+    --chart-block-export-chart-hover-icon-background-image: url('./../assets/images/chartcontrol--export--normal.svg');
+    --chart-block-export-chart-hover-icon-background-size: 40px;
+    --chart-block-export-chart-hover-icon-background-position: 0px -24px;
+    --chart-block-export-chart-hover-icon-background-color: none;
+
+    /*
+        Focus
+    */
+    --chart-block-export-chart-focus-icon-background-image: url('./../assets/images/chartcontrol--export--normal.svg');
+    --chart-block-export-chart-focus-icon-background-size: 40px;
+    --chart-block-export-chart-focus-icon-background-position: 0px -24px;
+    --chart-block-export-chart-focus-icon-background-color: none;
+
+    /* 
+        Disabled
+    */
+    --chart-block-export-chart-disabled-icon-background-image: url('./../assets/images/chartcontrol--export--normal.svg');
+    --chart-block-export-chart-disabled-icon-background-size: 40px;
+    --chart-block-export-chart-disabled-icon-background-position: 0px -48px;
+    --chart-block-export-chart-disabled-icon-background-color: none;
+
+    /*
+        Maximize icon
+    */
+    /* 
+        Normal
+    */
+    --chart-block-maximize-chart-icon-background-image: url('./../assets/images/chartcontrol--resize--normal.svg');
+    --chart-block-maximize-chart-icon-background-size: 40px;
+    --chart-block-maximize-chart-background-position: 0px 0px;
+    --chart-block-maximize-chart-icon-background-color: none;
+
+    /*
+        Hover
+    */
+    --chart-block-maximize-chart-hover-icon-background-image: url('./../assets/images/chartcontrol--resize--normal.svg');
+    --chart-block-maximize-chart-hover-icon-background-size: 40px;
+    --chart-block-maximize-chart-hover-icon-background-position: 0px -24px;
+    --chart-block-maximize-chart-hover-icon-background-color: none;
+
+    /*
+        Focus
+    */
+    --chart-block-maximize-chart-focus-icon-background-image: url('./../assets/images/chartcontrol--resize--normal.svg');
+    --chart-block-maximize-chart-focus-icon-background-size: 40px;
+    --chart-block-maximize-chart-focus-icon-background-position: 0px -24px;
+    --chart-block-maximize-chart-focus-icon-background-color: none;
+
+
+    /* 
+        Minimize icon
+    */
+    /* 
+        Normal
+    */
+    --chart-block-minimize-chart-icon-background-image: url('./../assets/images/chartcontrol--resize--normal.svg');
+    --chart-block-minimize-chart-icon-background-size: 40px;
+    --chart-block-minimize-chart-background-position: 0px -72px;
+    --chart-block-minimize-chart-icon-background-color: none;
+
+    /*
+        Hover
+    */
+    --chart-block-minimize-chart-hover-icon-background-image: url('./../assets/images/chartcontrol--resize--normal.svg');
+    --chart-block-minimize-chart-hover-icon-background-size: 40px;
+    --chart-block-minimize-chart-hover-icon-background-position: 0px -96px;
+    --chart-block-minimize-chart-hover-icon-background-color: none;
+
+    /*
+        Focus
+    */
+    --chart-block-minimize-chart-focus-icon-background-image: url('./../assets/images/chartcontrol--resize--normal.svg');
+    --chart-block-minimize-chart-focus-icon-background-size: 40px;
+    --chart-block-minimize-chart-focus-icon-background-position: 0px -96px;
+    --chart-block-minimize-chart-focus-icon-background-color: none;
+
+    /* Close icon */
+
+    /*
+        Normal
+    */
+    --chart-block-close-chart-icon-background-image: url('./../assets/images/chartcontrol--close--normal.svg');
+    --chart-block-close-chart-icon-background-size: 40px;
+    --chart-block-close-chart-icon-background-position: 0px 0px;
+    --chart-block-close-chart-icon-background-color: none;
+
+    /*
+        Hover
+    */
+    --chart-block-close-chart-hover-icon-background-image: url('./../assets/images/chartcontrol--close--normal.svg');
+    --chart-block-close-chart-hover-icon-background-size: 40px;
+    --chart-block-close-chart-hover-icon-background-position: 0px -24px;
+    --chart-block-close-chart-hover-icon-background-color: none;
+
+    /*
+        Focus
+    */
+    --chart-block-close-chart-focus-icon-background-image: url('./../assets/images/chartcontrol--close--normal.svg');
+    --chart-block-close-chart-focus-icon-background-size: 40px;
+    --chart-block-close-chart-focus-icon-background-position: 0px -24px;
+    --chart-block-close-chart-focus-icon-background-color: none;
+
+    /* 
+        Disabled
+    */
+    --chart-block-close-chart-disabled-icon-background-image: url('./../assets/images/chartcontrol--close--normal.svg');
+    --chart-block-close-chart-disabled-icon-background-size: 40px;
+    --chart-block-close-chart-disabled-icon-background-position: 0px -48px;
+    --chart-block-close-chart-disabled-icon-background-color: none;
 
     /* 
         Chart block settings panel 
@@ -1237,25 +1678,115 @@
     /*
         Set chart block setings panel colors
     */
-    --chart-block-settings-panel-key-background: #f9f6f8;
-    --chart-block-settings-panel-key-text-color: black;
-    --chart-block-settings-panel-key-font-weight: bold;
+    --chart-block-settings-background: #fafafa; 
+    --chart-block-settings-text-color: black;
+    --chart-block-settings-border-color: #f0eaee;
+    /* 
+       Set Chart block select color
+    */
+    /* 
+       Normal state
+    */
+    --chart-block-settings-select-background: #fafafa;
+    --chart-block-settings-select-text-color: black;
+    --chart-block-settings-select-placeholder-text-color: #9c979a;
+        
+    /* 
+        Normal state arrow icons 
+    */
+    --chart-block-settings-select-arrow-icon-background-image: url('../assets/images/varia-select-sprite.svg');
+    --chart-block-settings-select-arrow-icon-background-position: -29px 4px;
+    --chart-block-settings-select-arrow-icon-background-size: auto;
+        
+    /* 
+        Hover state
+    */
+    --chart-block-settings-select-hover-background: #f9f6f8;
+    --chart-block-settings-select-hover-text-color: #231f20;
+    --chart-block-settings-select-placeholder-hover-text-color: #9c979a;
 
-    --chart-block-settings-panel-group-key-background: transparent;
-    --chart-block-settings-panel-group-key-text-color: black;
-    --chart-block-settings-panel-group-key-font-weight: bold;
-    --chart-block-settings-panel-group-key-border: 1px solid #dbd7da;
+    /* 
+        Hover state arrow icons 
+    */
+    --chart-block-settings-select-arrow-icon-hover-background-image: url('../assets/images/varia-select-sprite.svg');
+    --chart-block-settings-select-arrow-icon-hover-bbackground-size: auto;
+    --chart-block-settings-select-arrow-icon-hover-background-position: -29px 28px;
+    
+    /* 
+        Disabled state 
+    */
+    --chart-block-settings-select-disabled-background: #f9f6f8;
+    --chart-block-settings-select-disabled-text-color: #c4bec1;
+    --chart-block-settings-select-placeholder-disabled-text-color: #9c979a;
+    
+    /* 
+        Disabled state arrow icons 
+    */
+    --chart-block-settings-select-arrow-icon-disabled-background-image: url('../assets/images/varia-select-sprite.svg');
+    --chart-block-settings-select-arrow-icon-disabled-background-size: auto;
+    --chart-block-settings-select-arrow-icon-disabled-background-position: -29px 4px;
 
+
+    /*
+       Set chart block input colors
+    */
+    /*
+       Normal state
+    */
+    --chart-block-settings-input-background:  #fafafa;
+    --chart-block-settings-input-text-color: black;
+    --chart-block-settings-input-border-color: transparent;
+    --chart-block-settings-input-placeholder-text-color: #9c979a;
+    
+    /*
+       Hover state
+    */
+    --chart-block-settings-input-hover-background: #f9f6f8;
+    --chart-block-settings-input-hover-text-color: black;
+    --chart-block-settings-input-hover-placeholder-text-color: #9c979a;
+
+    
+    /*
+       Active state
+    */
+    --chart-block-settings-input-active-background: #ffffff;
+    --chart-block-settings-input-active-text-color: black;
+    --chart-block-settings-input-active-border-color:#29B6F6;
+    --chart-block-settings-input-active-placeholder-text-color: #c4bec1;
+    
+    /*
+       Focus state
+    */
+    --chart-block-settings-input-focus-background: #ffffff;
+    --chart-block-settings-input-focus-text-color: black;
+    --chart-block-settings-input-focus-border-color:#29B6F6;
+    --chart-block-settings-input-focus-placeholder-text-color: #c4bec1;
+    
+    /*
+       Disabled state
+    */
+    --chart-block-settings-input-disabled-background: #f9f6f8;
+    --chart-block-settings-input-disabled-text-color: #c4bec1;
+    --chart-block-settings-input-disabled-placeholder-text-color: #9c979a;
+
+    /* 
+        Chart block time series annotation
+    */
+    --chart-block-time-series-annotation-dot-fill-color: #ff4597;
+    --chart-block-time-series-annotation-line-stroke-color: #c4bec1;
+    --chart-block-time-series-hover-line: black;
+    --chart-block-time-series-region-annotation-fill-color: black;
+    
     /* 
         Chart block time series chart
     */
     /*
         Set time series colors
     */
-    --chart-block-time-series-chart-axis-color: #dbd7da;
-    --chart-block-time-series-chart-axis-label-text-color: black;
-    --chart-block-time-series-chart-axis-tick-text-color: #000;
-    --chart-block-time-series-chart-axis-date-separator-text-color: lightgrey;
+    --chart-block-time-series-chart-axis-color: #c4bec1;
+    --chart-block-time-series-chart-axis-label-text-color: #231f20;
+    --chart-block-time-series-chart-axis-tick-text-color: #231f20;
+    --chart-block-time-series-chart-axis-date-separator-text-color: #f9f6f8;
 
     /* 
         Chart block tabular chart
@@ -1281,14 +1812,12 @@
     */
     --chart-block-hierarchical-chart-background: transparent;
     --chart-block-hierarchical-chart-row-border: 1px solid #dbd7da;
-    --chart-block-hierarchical-chart-text-color: black;
+    --chart-block-hierarchical-chart-text-color:#231f20;
     --chart-block-hierarchical-chart-action-link-text-color: #29B6F6;
 
     /* 
         Chart block Page flow
     */
-    /*
-        Set page flow color 
-    */
+
     --chart-block-chart-page-flow-text-color: black;
 }   
